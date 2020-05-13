@@ -1,0 +1,18 @@
+##sequence-region AY453412.1 1 11064
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=64286
+AY453412.1	Genbank	region	1	11064	.	+	.	ID=AY453412.1:1..11064;Dbxref=taxon:64286;country=South Africa;gbkey=Src;isolation-source=mosquito;mol_type=genomic RNA;strain=SAAR-1776
+AY453412.1	Genbank	CDS	97	10401	.	+	0	ID=cds-AAS59401.1;Dbxref=NCBI_GP:AAS59401.1;Name=AAS59401.1;gbkey=CDS;product=polyprotein precursor;protein_id=AAS59401.1
+AY453412.1	Genbank	mature_protein_region	97	474	.	+	.	ID=id-AAS59401.1:1..126;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	97	408	.	+	.	ID=id-AAS59401.1:1..104;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	475	975	.	+	.	ID=id-AAS59401.1:127..293;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	751	975	.	+	.	ID=id-AAS59401.1:219..293;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	976	2475	.	+	.	ID=id-AAS59401.1:294..793;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	2476	3531	.	+	.	ID=id-AAS59401.1:794..1145;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	3532	4212	.	+	.	ID=id-AAS59401.1:1146..1372;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	4213	4605	.	+	.	ID=id-AAS59401.1:1373..1503;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	4606	6462	.	+	.	ID=id-AAS59401.1:1504..2122;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	6463	6840	.	+	.	ID=id-AAS59401.1:2123..2248;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	6841	6909	.	+	.	ID=id-AAS59401.1:2249..2271;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	6910	7683	.	+	.	ID=id-AAS59401.1:2272..2529;gbkey=Prot
+AY453412.1	Genbank	mature_protein_region	7684	10398	.	+	.	ID=id-AAS59401.1:2530..3434;gbkey=Prot
+

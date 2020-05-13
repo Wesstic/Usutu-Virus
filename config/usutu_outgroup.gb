@@ -5,8 +5,7 @@ VERSION     AY453412.1
 KEYWORDS    .
 SOURCE      Usutu virus
   ORGANISM  Usutu virus
-            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
-            stage; Flaviviridae; Flavivirus; Japanese encephalitis virus group.
+            Viruses; Riboviria; Flaviviridae; Flavivirus.
 REFERENCE   1  (bases 1 to 11064)
   AUTHORS   Bakonyi,T., Gould,E.A., Kolodziejek,J., Weissenbock,H. and
             Nowotny,N.
@@ -93,32 +92,28 @@ FEATURES             Location/Qualifiers
                      AQMWLLLYFHRRDLRLMANAICSAVPSNWVPTGRTSWSVHATGEWMTTDDMLEVWNKV
                      WIQDNEWMLDKTPVQSWTDIPYTGKREDIWCGSLIGTRTRATWAENIYAAINQVRAII
                      GQEKYRDYMLSLRRYEEVDVQEDRVL"
-     mat_peptide     97..474
-                     /product="anchored core protein C"
-     mat_peptide     97..408
-                     /product="core protein C"
-     mat_peptide     475..975
-                     /product="PreM"
-     mat_peptide     751..975
-                     /product="matrix protein M"
-     mat_peptide     976..2475
-                     /product="envelope protein"
-     mat_peptide     2476..3531
-                     /product="NS1"
-     mat_peptide     3532..4212
-                     /product="NS2a"
-     mat_peptide     4213..4605
-                     /product="NS2b"
-     mat_peptide     4606..6462
-                     /product="NS3"
-     mat_peptide     6463..6840
-                     /product="NS4a"
-     mat_peptide     6841..6909
-                     /product="2K protein"
-     mat_peptide     6910..7683
-                     /product="NS4b"
-     mat_peptide     7684..10398
-                     /product="NS5"
+     CDS             97..474
+                     /gene="anchC"
+     CDS             475..975
+                     /gene="PrM"
+     CDS             976..2475
+                     /gene="E"
+     CDS             2476..3531
+                     /gene="NS1"
+     CDS             3532..4212
+                     /gene="NS2a"
+     CDS             4213..4605
+                     /gene="NS2b"
+     CDS             4606..6462
+                     /gene="NS3"
+     CDS             6463..6840
+                     /gene="NS4a"
+     CDS             6841..6909
+                     /gene="2k"
+     CDS             6910..7683
+                     /gene="NS4b"
+     CDS             7684..10398
+                     /gene="NS5"
 ORIGIN      
         1 agtcgttcgt ctgcgtgagc tctactactt catattggtt ttggaggatc gtgagattaa
        61 cacagtgccg gcagtttctt tgagcgttga ttttcaatgt ctaagaaacc aggagggccc
