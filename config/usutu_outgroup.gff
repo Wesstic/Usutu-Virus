@@ -1,0 +1,27 @@
+##sequence-region AY453412.1 1 11064
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=64286
+AY453412.1	Genbank	region	1	11064	.	+	.	ID=AY453412.1:1..11064;Dbxref=taxon:64286;country=South Africa;gbkey=Src;isolation-source=mosquito;mol_type=genomic RNA;strain=SAAR-1776
+AY453412.1	Genbank	CDS	97	10401	.	+	0	ID=cds-AAS59401.1;Dbxref=NCBI_GP:AAS59401.1;Name=AAS59401.1;gbkey=CDS;product=polyprotein precursor;protein_id=AAS59401.1
+AY453412.1	Genbank	gene	97	474	.	+	.	ID=gene-anchC;Name=anchC;gbkey=Gene
+AY453412.1	Genbank	CDS	97	474	.	+	0	ID=cds-anchC;Parent=gene-anchC;gbkey=CDS
+AY453412.1	Genbank	gene	475	975	.	+	.	ID=gene-PrM;Name=PrM;gbkey=Gene
+AY453412.1	Genbank	CDS	475	975	.	+	0	ID=cds-PrM;Parent=gene-PrM;gbkey=CDS
+AY453412.1	Genbank	gene	976	2475	.	+	.	ID=gene-E;Name=E;gbkey=Gene
+AY453412.1	Genbank	CDS	976	2475	.	+	0	ID=cds-E;Parent=gene-E;gbkey=CDS
+AY453412.1	Genbank	gene	2476	3531	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene
+AY453412.1	Genbank	CDS	2476	3531	.	+	0	ID=cds-NS1;Parent=gene-NS1;gbkey=CDS
+AY453412.1	Genbank	gene	3532	4212	.	+	.	ID=gene-NS2a;Name=NS2a;gbkey=Gene
+AY453412.1	Genbank	CDS	3532	4212	.	+	0	ID=cds-NS2a;Parent=gene-NS2a;gbkey=CDS
+AY453412.1	Genbank	gene	4213	4605	.	+	.	ID=gene-NS2b;Name=NS2b;gbkey=Gene
+AY453412.1	Genbank	CDS	4213	4605	.	+	0	ID=cds-NS2b;Parent=gene-NS2b;gbkey=CDS
+AY453412.1	Genbank	gene	4606	6462	.	+	.	ID=gene-NS3;Name=NS3;gbkey=Gene
+AY453412.1	Genbank	CDS	4606	6462	.	+	0	ID=cds-NS3;Parent=gene-NS3;gbkey=CDS
+AY453412.1	Genbank	gene	6463	6840	.	+	.	ID=gene-NS4a;Name=NS4a;gbkey=Gene
+AY453412.1	Genbank	CDS	6463	6840	.	+	0	ID=cds-NS4a;Parent=gene-NS4a;gbkey=CDS
+AY453412.1	Genbank	gene	6841	6909	.	+	.	ID=gene-2k;Name=2k;gbkey=Gene
+AY453412.1	Genbank	CDS	6841	6909	.	+	0	ID=cds-2k;Parent=gene-2k;gbkey=CDS
+AY453412.1	Genbank	gene	6910	7683	.	+	.	ID=gene-NS4b;Name=NS4b;gbkey=Gene
+AY453412.1	Genbank	CDS	6910	7683	.	+	0	ID=cds-NS4b;Parent=gene-NS4b;gbkey=CDS
+AY453412.1	Genbank	gene	7684	10398	.	+	.	ID=gene-NS5;Name=NS5;gbkey=Gene
+AY453412.1	Genbank	CDS	7684	10398	.	+	0	ID=cds-NS5;Parent=gene-NS5;gbkey=CDS
+
