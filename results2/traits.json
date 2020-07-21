@@ -1,0 +1,6740 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "7.0.2"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Austria",
+        "Belgium",
+        "Central African Republic",
+        "France",
+        "Germany",
+        "Hungary",
+        "Israel",
+        "Italy",
+        "Netherlands",
+        "Senegal",
+        "Serbia",
+        "South Africa",
+        "Spain",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.08947206976224518,
+        0.06592965689824129,
+        0.08166287575340746,
+        0.07277712488552152,
+        0.056915549973460954,
+        0.0913966569281281,
+        0.08447669023834817,
+        0.06442442922178859,
+        0.05684500663595577,
+        0.0901423645400509,
+        0.0858327069751698,
+        0.0807275778980474,
+        0.07939729028963491
+      ],
+      "rate": 56.37560717728363,
+      "transition_matrix": [
+        [
+          0.0,
+          0.8864538857973536,
+          0.8886996830693746,
+          0.887934460543545,
+          0.8873570355612828,
+          1.599201420030016,
+          0.8876622201542674,
+          1.7257527384892901,
+          0.8794225397114028,
+          0.9034159966038776,
+          1.0266431910616167,
+          0.8940491221566168,
+          0.8900352748494856
+        ],
+        [
+          0.8864538857973536,
+          0.0,
+          0.8935594976529126,
+          0.887856891120666,
+          1.6567921176389109,
+          0.8867360405753261,
+          0.888253145323006,
+          0.8867817676790996,
+          4.230031952145854,
+          0.9110309004435747,
+          0.8866556828767921,
+          0.8930450056146754,
+          0.8901663954288594
+        ],
+        [
+          0.8886996830693746,
+          0.8935594976529126,
+          0.0,
+          0.8914827758775029,
+          0.9035738913320489,
+          0.888816333486234,
+          0.9223575560460611,
+          0.9050379572297335,
+          0.959092393794099,
+          1.288962317200837,
+          0.8885537941370091,
+          0.9063660335522781,
+          0.8974129782681154
+        ],
+        [
+          0.887934460543545,
+          0.887856891120666,
+          0.8914827758775029,
+          0.0,
+          2.640409903471157,
+          0.8882626009519706,
+          0.8907161843137165,
+          0.8885218672906342,
+          0.8845125027383226,
+          0.9582590489941298,
+          0.8880783542082483,
+          0.9044674209079299,
+          1.05760792615233
+        ],
+        [
+          0.8873570355612828,
+          1.6567921176389109,
+          0.9035738913320489,
+          2.640409903471157,
+          0.0,
+          0.8837573169098887,
+          0.8914507635175762,
+          2.2321472383548357,
+          7.222491318003487,
+          1.0436069224808573,
+          0.8824594137022047,
+          0.9041252769562691,
+          1.162950321813681
+        ],
+        [
+          1.599201420030016,
+          0.8867360405753261,
+          0.888816333486234,
+          0.8882626009519706,
+          0.8837573169098887,
+          0.0,
+          0.8876131670823836,
+          1.0877428827630513,
+          0.8793467364347208,
+          0.8997594963683143,
+          1.1595598592599983,
+          0.8944066522405453,
+          0.8903853665633177
+        ],
+        [
+          0.8876622201542674,
+          0.888253145323006,
+          0.9223575560460611,
+          0.8907161843137165,
+          0.8914507635175762,
+          0.8876131670823836,
+          0.0,
+          0.9163431578122612,
+          0.8989694553006713,
+          1.8660967312176515,
+          0.887393266180144,
+          0.9082461162707841,
+          0.897517910505746
+        ],
+        [
+          1.7257527384892901,
+          0.8867817676790996,
+          0.9050379572297335,
+          0.8885218672906342,
+          2.2321472383548357,
+          1.0877428827630513,
+          0.9163431578122612,
+          0.0,
+          0.8900158867301152,
+          1.3273748604832478,
+          0.9872861689345699,
+          0.8977940350099121,
+          0.8927356032139204
+        ],
+        [
+          0.8794225397114028,
+          4.230031952145854,
+          0.959092393794099,
+          0.8845125027383226,
+          7.222491318003487,
+          0.8793467364347208,
+          0.8989694553006713,
+          0.8900158867301152,
+          0.0,
+          1.16859024820461,
+          0.8796762766967487,
+          0.8916309549837681,
+          0.889933486429637
+        ],
+        [
+          0.9034159966038776,
+          0.9110309004435747,
+          1.288962317200837,
+          0.9582590489941298,
+          1.0436069224808573,
+          0.8997594963683143,
+          1.8660967312176515,
+          1.3273748604832478,
+          1.16859024820461,
+          0.0,
+          0.8979324169729547,
+          1.6597969512016788,
+          1.0892299602293511
+        ],
+        [
+          1.0266431910616167,
+          0.8866556828767921,
+          0.8885537941370091,
+          0.8880783542082483,
+          0.8824594137022047,
+          1.1595598592599983,
+          0.887393266180144,
+          0.9872861689345699,
+          0.8796762766967487,
+          0.8979324169729547,
+          0.0,
+          0.8938177313189071,
+          0.8900639332027737
+        ],
+        [
+          0.8940491221566168,
+          0.8930450056146754,
+          0.9063660335522781,
+          0.9044674209079299,
+          0.9041252769562691,
+          0.8944066522405453,
+          0.9082461162707841,
+          0.8977940350099121,
+          0.8916309549837681,
+          1.6597969512016788,
+          0.8938177313189071,
+          0.0,
+          0.9285102297952091
+        ],
+        [
+          0.8900352748494856,
+          0.8901663954288594,
+          0.8974129782681154,
+          1.05760792615233,
+          1.162950321813681,
+          0.8903853665633177,
+          0.897517910505746,
+          0.8927356032139204,
+          0.889933486429637,
+          1.0892299602293511,
+          0.8900639332027737,
+          0.9285102297952091,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "Africa",
+        "Europe",
+        "Middle-East",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.14635713714651305,
+        0.6043674866806685,
+        0.24927537617281847
+      ],
+      "rate": 8.595523546205277,
+      "transition_matrix": [
+        [
+          0.0,
+          2.8036364793450774,
+          2.358311105190093
+        ],
+        [
+          2.8036364793450774,
+          0.0,
+          1.1016622268951721
+        ],
+        [
+          2.358311105190093,
+          1.1016622268951721,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "AY453411/EU1/Austria/2001": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "AY453412/AF2/SouthAfrica/1958": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Israel": 0.05027988960208802,
+        "Senegal": 0.4437817211973272,
+        "South Africa": 0.21951206159833847,
+        "Spain": 0.0447816204185054
+      },
+      "country_entropy": 1.8535536483256372,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9286431813100615,
+        "Europe": 0.055323980867414316,
+        "Middle-East": 0.01603283782252417
+      },
+      "region_entropy": 0.29515165399193455
+    },
+    "EF206350/EU1/Hungary/2006": {
+      "country": "Hungary",
+      "country_confidence": {
+        "Hungary": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HE599647/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HM569263/EU2/Italy/2009": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "JF266698/EU2/Italy/2009": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "JQ219843/EU1/Austria/2002": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KC754954/AF2/Senegal/1974": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KC754955/AF3/CAR/1981": {
+      "country": "Central African Republic",
+      "country_confidence": {
+        "Central African Republic": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KC754956/AF3/Senegal/1993": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KC754957/AF3/Senegal/2007": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KF573410/AF2/Spain/2006": {
+      "country": "Spain",
+      "country_confidence": {
+        "Spain": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438705/EU3/Germany/2010": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438706/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438707/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438708/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438709/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438710/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438711/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438712/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438713/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438714/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438715/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438716/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438717/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438718/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438719/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438720/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438721/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438722/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438723/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438724/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438725/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438726/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438727/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438728/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438729/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438730/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438731/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438732/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438733/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438734/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438735/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438736/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438737/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438738/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438739/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438740/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438741/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438742/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438743/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438744/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438745/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438746/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438747/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438748/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438749/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438750/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438751/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438752/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438753/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438754/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438755/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438756/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438757/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438758/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438759/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438760/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438761/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438762/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438763/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438764/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438765/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438766/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438767/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438768/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438769/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438770/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438771/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438772/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438773/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438774/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438775/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438776/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438777/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KJ438778/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438779/EU3/Germany/2012": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438780/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ438781/EU3/Germany/2011": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ859682/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KJ859683/EU3/Germany/2013": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KM659877/AF3/Germany/2014": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KU573070/EU2/Italy/2013": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KU573072/EU2/Italy/2013": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KU573073/EU4/Italy/23013": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KU573074/EU2/Italy/2013": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KU573075/EU2/Italy/2014": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KU573076/EU2/Italy/2014": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KU664608/AF2/Germany/2015": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX555624/EU2/Germany/2010": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX555625/EU2/Italy/2010": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX555626/EU2/Germany/2010": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX555627/EU2/Italy/2010": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX555628/EU2/Italy/2010": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX555629/EU4/Italy/2015": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX601690/EU3/France/2015": {
+      "country": "France",
+      "country_confidence": {
+        "France": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX601691/EU3/France/2015": {
+      "country": "France",
+      "country_confidence": {
+        "France": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX601692/AF2/France/2015": {
+      "country": "France",
+      "country_confidence": {
+        "France": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816646/EU4/Italy/2010": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816647/EU2/Italy/2011": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816648/EU2/Italy/2011": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816649/EU2/Italy/2011": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816650/EU2/Italy/2012": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816651/EU2/Italy/2012": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816652/EU2/Italy/2012": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KX816653/EU4/Italy/2012": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KX977447/EU3/Belgium/2016": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY128481/EU3/France/2016": {
+      "country": "France",
+      "country_confidence": {
+        "France": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY128482/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY199556/AF2/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY199557/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY199558/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY263624/EU3/Belgium/2016": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY263625/AF3/Belgium/2016": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY263626/EU3/Belgium/2016": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY294722/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY294723/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY315178/EU3/Belgium/2016": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY426750/EU3/Germany/2015": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426751/EU3/Germany/2015": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426752/EU3/Germany/2015": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426753/EU3/Germany/2015": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY426754/AF3/Germany/2015": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY426755/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426756/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426757/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426758/AF2/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426759/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426760/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY426761/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426762/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426763/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426764/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426765/AF3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426766/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "KY426767/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426768/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426769/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KY426770/EU3/Germany/2016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MF063042/EU2/Austria/2016": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MF063043/EU2/Hungary/2016": {
+      "country": "Hungary",
+      "country_confidence": {
+        "Hungary": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MF374485/AF2/SouthAfrica/1959": {
+      "country": "South Africa",
+      "country_confidence": {
+        "South Africa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MF991886/EU2/Austria/2017": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG461306/EU5/Israel/2015": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MG461307/EU5/Israel/2015": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG461308/EU5/Israel/2015": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG461309/EU5/Israel/2004": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MG461310/EU5/Israel/2004": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG461311/EU5/Israel/2004": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG461312/EU5/Israel/2004": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG461313/EU5/Israel/2015": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MG888044/EU1/Serbia/2014": {
+      "country": "Serbia",
+      "country_confidence": {
+        "Serbia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MH727238/AF2/Senegal/2013": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MH727239/AF2/Senegal/2013": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MH727240/AF2/Senegal/2013": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MH727241/AF2/Senegal/2013": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MH727242/AF2/Senegal/2013": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MH891847/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MK230890/EU3/Belgium/2017": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MK230891/AF3/Belgium/2017": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MK230892/EU3/Belgium/2017": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MK230893/AF3/Belgium/2017": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MK419834/AF3/Belgium/2018": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MK796168/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MK796169/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122145/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122146/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122147/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122148/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122149/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122150/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122151/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122152/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122153/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122154/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122155/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122156/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122157/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122158/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122159/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122160/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122161/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122162/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122163/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122164/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122165/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122166/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122167/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122168/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122169/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122170/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122172/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122173/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122174/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122175/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122176/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122177/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122178/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122179/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122180/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122181/EU3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122182/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122183/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122184/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122185/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122186/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122187/AF3/Netherlands/2016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122188/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122189/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122190/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122191/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122192/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122193/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122194/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122195/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122196/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122197/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122198/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122199/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122200/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122201/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122202/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122203/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122204/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122205/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122206/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122208/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122209/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122210/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122211/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122212/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122213/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122214/AF3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122215/EU3/Netherlands/2017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122216/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122217/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122218/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122219/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122220/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122221/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122222/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122223/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122224/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122225/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122226/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122227/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122228/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122230/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122231/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122232/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122233/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122234/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122235/EU3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122236/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122237/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122238/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122239/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122240/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122241/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122242/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122243/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122244/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122245/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122246/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122247/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122248/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122249/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122250/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122251/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122252/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122253/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122254/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MN122255/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MN122256/AF3/Netherlands/2018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC006551/EU1/Austria/2001": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000000": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Israel": 0.03804505202177596,
+        "Senegal": 0.5199973453951862,
+        "South Africa": 0.2400833081791383,
+        "Spain": 0.037783796135616235
+      },
+      "country_entropy": 1.58214871093734,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9850505358918297,
+        "Europe": 0.013578740911003896,
+        "Middle-East": 0.0013707231971664393
+      },
+      "region_entropy": 0.08225193866149252
+    },
+    "NODE_0000001": {
+      "country": "South Africa",
+      "country_confidence": {
+        "Central African Republic": 0.0028758181226708535,
+        "Israel": 0.004672202018390026,
+        "Senegal": 0.19456748079595848,
+        "South Africa": 0.781044418750415
+      },
+      "country_entropy": 0.658885433273588,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9999054361031747
+      },
+      "region_entropy": 0.0010088847586674618
+    },
+    "NODE_0000002": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9992518066100535
+      },
+      "country_entropy": 0.007002860126480354,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.999997121595136
+      },
+      "region_entropy": 4.103519434188925e-05
+    },
+    "NODE_0000003": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9999909450807888
+      },
+      "country_entropy": 0.00012800316337166086,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9999997587950001
+      },
+      "region_entropy": 4.036128408927077e-06
+    },
+    "NODE_0000004": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9999908701927347
+      },
+      "country_entropy": 0.00012897375771192098,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.999999757950955
+      },
+      "region_entropy": 4.049376470299347e-06
+    },
+    "NODE_0000005": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Senegal": 0.9999970994339047
+      },
+      "country_entropy": 4.6068468260095704e-05,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9999997679866949
+      },
+      "region_entropy": 3.891639754590777e-06
+    },
+    "NODE_0000006": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Israel": 0.03551406915232455,
+        "Senegal": 0.6855136608649238,
+        "South Africa": 0.0995363248878714,
+        "Spain": 0.04295827469583813
+      },
+      "country_entropy": 1.2975035914051134,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9862091675332776,
+        "Europe": 0.013404267653944217
+      },
+      "region_entropy": 0.0745346502151394
+    },
+    "NODE_0000007": {
+      "country": "Spain",
+      "country_confidence": {
+        "France": 0.15582592243793728,
+        "Germany": 0.2745847942340428,
+        "Senegal": 0.029070400340258585,
+        "Spain": 0.48385318950479966
+      },
+      "country_entropy": 1.3795723314188364,
+      "region": "Europe",
+      "region_confidence": {
+        "Africa": 0.003741321690895481,
+        "Europe": 0.9961989353202162
+      },
+      "region_entropy": 0.025282548557978405
+    },
+    "NODE_0000008": {
+      "country": "Germany",
+      "country_confidence": {
+        "France": 0.3220522479021572,
+        "Germany": 0.5927603542757934,
+        "Netherlands": 0.005328845655782515,
+        "Spain": 0.06573195461661871
+      },
+      "country_entropy": 0.9707222939109938,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999316314993713
+      },
+      "region_entropy": 0.0007291447013699432
+    },
+    "NODE_0000009": {
+      "country": "Germany",
+      "country_confidence": {
+        "France": 0.0028141804026275835,
+        "Germany": 0.9965730290094399
+      },
+      "country_entropy": 0.025312027221408784,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999978763634193
+      },
+      "region_entropy": 3.0324478624649797e-05
+    },
+    "NODE_0000010": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999521034951049
+      },
+      "country_entropy": 0.0005709063763566375,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991581385737
+      },
+      "region_entropy": 1.2878618159592207e-05
+    },
+    "NODE_0000011": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Central African Republic": 0.027038875337405278,
+        "Israel": 0.0341205166260374,
+        "Senegal": 0.8341416246710298,
+        "South Africa": 0.03322045831082658
+      },
+      "country_entropy": 0.8087839524529686,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9984471832601036,
+        "Europe": 0.0015101261889242166
+      },
+      "region_entropy": 0.01179026126061273
+    },
+    "NODE_0000012": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Central African Republic": 0.055346382654940254,
+        "Israel": 0.06306738342677133,
+        "Italy": 0.02511674233198692,
+        "Senegal": 0.8033168241412458
+      },
+      "country_entropy": 0.8528666069004815,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.99864758320331,
+        "Europe": 0.0012645735430483723
+      },
+      "region_entropy": 0.01061047900321724
+    },
+    "NODE_0000013": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Central African Republic": 0.1671872729523181,
+        "Israel": 0.052624483165333455,
+        "Netherlands": 0.05051810774507779,
+        "Senegal": 0.6459678823940215
+      },
+      "country_entropy": 1.2543612819092174,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.996582973997264,
+        "Europe": 0.0033216409064089343
+      },
+      "region_entropy": 0.02325180633409925
+    },
+    "NODE_0000014": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.03778927138574303,
+        "Germany": 0.13137974827073406,
+        "Netherlands": 0.8254173639048688,
+        "Senegal": 0.0025575886460574783
+      },
+      "country_entropy": 0.5867027237153322,
+      "region": "Europe",
+      "region_confidence": {
+        "Africa": 0.001514271921103799,
+        "Europe": 0.9984722491327098
+      },
+      "region_entropy": 0.011509637130628369
+    },
+    "NODE_0000015": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.08548342929237276,
+        "Germany": 0.2823326998610485,
+        "Netherlands": 0.6301092247122618
+      },
+      "country_entropy": 0.8753855494850334,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999602724101019
+      },
+      "region_entropy": 0.0004443309080010359
+    },
+    "NODE_0000016": {
+      "country": "Germany",
+      "country_confidence": {
+        "Belgium": 0.0018719522034632648,
+        "Germany": 0.6731258590216747,
+        "Netherlands": 0.3249410894501529
+      },
+      "country_entropy": 0.6441871545368785,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999986111655699
+      },
+      "region_entropy": 2.0428270508737936e-05
+    },
+    "NODE_0000017": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.992318028229737,
+        "Netherlands": 0.007659123522884141
+      },
+      "country_entropy": 0.045252904467599615,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991758418232
+      },
+      "region_entropy": 1.262849224055205e-05
+    },
+    "NODE_0000018": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.665020236391334,
+        "Netherlands": 0.3346322206696862
+      },
+      "country_entropy": 0.6405893737092634,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991569459825
+      },
+      "region_entropy": 1.2895929739677351e-05
+    },
+    "NODE_0000019": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.0046465926681397195,
+        "Netherlands": 0.9947812772737117
+      },
+      "country_entropy": 0.034585716989898374,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999977761820291
+      },
+      "region_entropy": 0.0002614961217582511
+    },
+    "NODE_0000020": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.0019937400441296864,
+        "Netherlands": 0.9980045943841975
+      },
+      "country_entropy": 0.014412550066680047,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999822559313
+      },
+      "region_entropy": 3.367223104345379e-07
+    },
+    "NODE_0000021": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999372828620058
+      },
+      "country_entropy": 0.0006864174044119477,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999175858607
+      },
+      "region_entropy": 1.2628255821360066e-05
+    },
+    "NODE_0000022": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999825358574024
+      },
+      "country_entropy": 0.00022005301974973516,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991761043875
+      },
+      "region_entropy": 1.2624781205984624e-05
+    },
+    "NODE_0000024": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.5078014261714465,
+        "Netherlands": 0.49213133983630597
+      },
+      "country_entropy": 0.6938016750487586,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991866623834
+      },
+      "region_entropy": 1.2474737932455213e-05
+    },
+    "NODE_0000025": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.50822954529664,
+        "Netherlands": 0.4917691799751987
+      },
+      "country_entropy": 0.6930306701063913,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999884347762
+      },
+      "region_entropy": 2.248361510811554e-07
+    },
+    "NODE_0000027": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.5082364180236993,
+        "Netherlands": 0.49169629288103356
+      },
+      "country_entropy": 0.6937876938994595,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757936333
+      },
+      "region_entropy": 1.2629177814135768e-05
+    },
+    "NODE_0000028": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.011772748310795268,
+        "Netherlands": 0.988185712480114
+      },
+      "country_entropy": 0.06451108897746072,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991649932123
+      },
+      "region_entropy": 1.2782501026834195e-05
+    },
+    "NODE_0000029": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9997162395022057
+      },
+      "country_entropy": 0.0026296518538518176,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759550456
+      },
+      "region_entropy": 1.2626894339334456e-05
+    },
+    "NODE_0000030": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.011779041509757652,
+        "Netherlands": 0.9881800304224279
+      },
+      "country_entropy": 0.06453227612264317,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757850147
+      },
+      "region_entropy": 1.2629299432059331e-05
+    },
+    "NODE_0000031": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9997161043194347
+      },
+      "country_entropy": 0.002630727704569346,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991761033701
+      },
+      "region_entropy": 1.2624795592474423e-05
+    },
+    "NODE_0000032": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999930005836742
+      },
+      "country_entropy": 9.044334037847744e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999884347308
+      },
+      "region_entropy": 2.2483698225241574e-07
+    },
+    "NODE_0000033": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832319408243
+      },
+      "country_entropy": 0.0002123134574550179,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648340503
+      },
+      "region_entropy": 1.2784750505415784e-05
+    },
+    "NODE_0000034": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999837641424429
+      },
+      "country_entropy": 0.0002061762444035747,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869082627
+      },
+      "region_entropy": 1.247125850641767e-05
+    },
+    "NODE_0000035": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999837641424429
+      },
+      "country_entropy": 0.0002061762444035747,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869082627
+      },
+      "region_entropy": 1.247125850641767e-05
+    },
+    "NODE_0000036": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999996450825627
+      },
+      "country_entropy": 5.770984636137329e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999885893877
+      },
+      "region_entropy": 2.219950198285548e-07
+    },
+    "NODE_0000037": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835773234786
+      },
+      "country_entropy": 0.0002083531474103931,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528254
+      },
+      "region_entropy": 1.2626925703486707e-05
+    },
+    "NODE_0000038": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999983239586607
+      },
+      "country_entropy": 0.00021222656099217829,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991649909908
+      },
+      "region_entropy": 1.2782532378911697e-05
+    },
+    "NODE_0000039": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835773234786
+      },
+      "country_entropy": 0.0002083531474103931,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528254
+      },
+      "region_entropy": 1.2626925703486707e-05
+    },
+    "NODE_0000041": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835619312281
+      },
+      "country_entropy": 0.00020852841927590675,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991756365648
+      },
+      "region_entropy": 1.2631399894663995e-05
+    },
+    "NODE_0000042": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999839150818121
+      },
+      "country_entropy": 0.0002044721506240323,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869127053
+      },
+      "region_entropy": 1.2471195687425712e-05
+    },
+    "NODE_0000043": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835774914594
+      },
+      "country_entropy": 0.00020835124154077426,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759550146
+      },
+      "region_entropy": 1.2626894779088428e-05
+    },
+    "NODE_0000044": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999996490040366
+      },
+      "country_entropy": 5.712150204415197e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999885916747
+      },
+      "region_entropy": 2.2195304889076003e-07
+    },
+    "NODE_0000045": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835695925543
+      },
+      "country_entropy": 0.00020844118409577326,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757936616
+      },
+      "region_entropy": 1.2629177417075498e-05
+    },
+    "NODE_0000046": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832320139108
+      },
+      "country_entropy": 0.00021231268013096648,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648360946
+      },
+      "region_entropy": 1.2784721784171143e-05
+    },
+    "NODE_0000047": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832247714658
+      },
+      "country_entropy": 0.00021239505474062448,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646855189
+      },
+      "region_entropy": 1.2786850187818778e-05
+    },
+    "NODE_0000048": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832321876403
+      },
+      "country_entropy": 0.00021231071302767995,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648383468
+      },
+      "region_entropy": 1.2784689999988198e-05
+    },
+    "NODE_0000049": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835773292325
+      },
+      "country_entropy": 0.0002083530828740869,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528861
+      },
+      "region_entropy": 1.2626924846721896e-05
+    },
+    "NODE_0000051": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999996569104823
+      },
+      "country_entropy": 5.5921746337418545e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999887531188
+      },
+      "region_entropy": 2.1898427476632634e-07
+    },
+    "NODE_0000054": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999809450434056
+      },
+      "country_entropy": 0.00023938447527918183,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999837137904
+      },
+      "region_entropy": 3.1044831299875804e-07
+    },
+    "NODE_0000056": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999983456556843
+      },
+      "country_entropy": 0.00020989002605396832,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991807778743
+      },
+      "region_entropy": 1.25591296570068e-05
+    },
+    "NODE_0000057": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.013749368195813523,
+        "Netherlands": 0.9859697050047379
+      },
+      "country_entropy": 0.07535494097856034,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999989608068969
+      },
+      "region_entropy": 1.5684662107944054e-05
+    },
+    "NODE_0000058": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9995209191651401
+      },
+      "country_entropy": 0.004141907340816121,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999887447175
+      },
+      "region_entropy": 2.1913854687241213e-07
+    },
+    "NODE_0000060": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.02008941954524024,
+        "Netherlands": 0.9799091583492203
+      },
+      "country_entropy": 0.0984084882689063,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999861513909
+      },
+      "region_entropy": 2.6674411500997865e-07
+    },
+    "NODE_0000061": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.04232588166487953,
+        "Netherlands": 0.9575972735309509
+      },
+      "country_entropy": 0.1761706588840716,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759146246
+      },
+      "region_entropy": 1.2627465920434935e-05
+    },
+    "NODE_0000062": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9990223601047554
+      },
+      "country_entropy": 0.007803435027815297,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991761051783
+      },
+      "region_entropy": 1.2624770047562978e-05
+    },
+    "NODE_0000064": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9993609029784389
+      },
+      "country_entropy": 0.005383474558769034,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999989040936197
+      },
+      "region_entropy": 1.64807567822961e-05
+    },
+    "NODE_0000065": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999694866577846
+      },
+      "country_entropy": 0.0003614359720737114,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991724914447
+      },
+      "region_entropy": 1.2676088899738814e-05
+    },
+    "NODE_0000066": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.023633537584868664,
+        "Netherlands": 0.9762893978059126
+      },
+      "country_entropy": 0.11276860613028321,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991756363896
+      },
+      "region_entropy": 1.2631402498178402e-05
+    },
+    "NODE_0000067": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9994204599745374
+      },
+      "country_entropy": 0.004938655168747088,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999153249886
+      },
+      "region_entropy": 1.2948993918296828e-05
+    },
+    "NODE_0000068": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999701987211232
+      },
+      "country_entropy": 0.0003540100612760165,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646788478
+      },
+      "region_entropy": 1.278694433144479e-05
+    },
+    "NODE_0000069": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832822552615
+      },
+      "country_entropy": 0.0002116769030866648,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759506617
+      },
+      "region_entropy": 1.2626956271740112e-05
+    },
+    "NODE_0000070": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999695365092475
+      },
+      "country_entropy": 0.00036110181543170194,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999153249885
+      },
+      "region_entropy": 1.2948993930725606e-05
+    },
+    "NODE_0000071": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999829077722494
+      },
+      "country_entropy": 0.00021595913468041344,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645216673
+      },
+      "region_entropy": 1.2789165910743147e-05
+    },
+    "NODE_0000072": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832172732867
+      },
+      "country_entropy": 0.00021247945048720162,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646810714
+      },
+      "region_entropy": 1.278691294957116e-05
+    },
+    "NODE_0000073": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832676617748
+      },
+      "country_entropy": 0.00021184202860990005,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757934495
+      },
+      "region_entropy": 1.2629180541158067e-05
+    },
+    "NODE_0000074": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.99998323201425
+      },
+      "country_entropy": 0.00021231266457892532,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648382835
+      },
+      "region_entropy": 1.2784690892119362e-05
+    },
+    "NODE_0000075": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835773253102
+      },
+      "country_entropy": 0.00020835312710531224,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528852
+      },
+      "region_entropy": 1.2626924859271608e-05
+    },
+    "NODE_0000076": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999993302431074
+      },
+      "country_entropy": 1.045970410905585e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999885867561
+      },
+      "region_entropy": 2.2204331137130985e-07
+    },
+    "NODE_0000077": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999828632440676
+      },
+      "country_entropy": 0.00021653096794097633,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991532475356
+      },
+      "region_entropy": 1.2949027050668343e-05
+    },
+    "NODE_0000079": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832321797341
+      },
+      "country_entropy": 0.00021231080235560273,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648382837
+      },
+      "region_entropy": 1.2784690892097425e-05
+    },
+    "NODE_0000080": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835773290555
+      },
+      "country_entropy": 0.0002083530848730201,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528852
+      },
+      "region_entropy": 1.2626924859272866e-05
+    },
+    "NODE_0000081": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832242450631
+      },
+      "country_entropy": 0.0002124009714821004,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646764498
+      },
+      "region_entropy": 1.2786978039512872e-05
+    },
+    "NODE_0000082": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832087322089
+      },
+      "country_entropy": 0.00021257739428008087,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991643644216
+      },
+      "region_entropy": 1.2791388377122205e-05
+    },
+    "NODE_0000083": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999982871521272
+      },
+      "country_entropy": 0.00021643706516809863,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991534092884
+      },
+      "region_entropy": 1.2946743224686277e-05
+    },
+    "NODE_0000084": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999983569572443
+      },
+      "country_entropy": 0.00020844145539909026,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757956725
+      },
+      "region_entropy": 1.2629149135566474e-05
+    },
+    "NODE_0000085": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832244269901
+      },
+      "country_entropy": 0.00021239895586925032,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999164681102
+      },
+      "region_entropy": 1.278691251771886e-05
+    },
+    "NODE_0000086": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835771589659
+      },
+      "country_entropy": 0.0002083550152000239,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759506932
+      },
+      "region_entropy": 1.2626955825423024e-05
+    },
+    "NODE_0000087": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835771546899
+      },
+      "country_entropy": 0.00020835506309570772,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759506276
+      },
+      "region_entropy": 1.2626956752548149e-05
+    },
+    "NODE_0000088": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835165146261
+      },
+      "country_entropy": 0.00020905058546116234,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991742355238
+      },
+      "region_entropy": 1.2651314048914942e-05
+    },
+    "NODE_0000089": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.99998097336052
+      },
+      "country_entropy": 0.0002386207749000538,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999990472922408
+      },
+      "region_entropy": 1.4460416094629366e-05
+    },
+    "NODE_0000090": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999996400299763
+      },
+      "country_entropy": 5.848121072675311e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999884073909
+      },
+      "region_entropy": 2.253390713366577e-07
+    },
+    "NODE_0000091": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832091430214
+      },
+      "country_entropy": 0.0002125726300187149,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645172988
+      },
+      "region_entropy": 1.2789227427109008e-05
+    },
+    "NODE_0000094": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999839147105691
+      },
+      "country_entropy": 0.0002044763704641661,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999186907881
+      },
+      "region_entropy": 1.2471263902732366e-05
+    },
+    "NODE_0000095": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832321754467
+      },
+      "country_entropy": 0.00021231085026669657,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648382173
+      },
+      "region_entropy": 1.2784691825440544e-05
+    },
+    "NODE_0000096": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835773289568
+      },
+      "country_entropy": 0.00020835308598400276,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528845
+      },
+      "region_entropy": 1.262692487229041e-05
+    },
+    "NODE_0000097": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999983216488726
+      },
+      "country_entropy": 0.0002124892062056757,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999164521634
+      },
+      "region_entropy": 1.2789166382019365e-05
+    },
+    "NODE_0000098": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835768231612
+      },
+      "country_entropy": 0.00020835882523374447,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759484079
+      },
+      "region_entropy": 1.2626988108657773e-05
+    },
+    "NODE_0000099": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9997935817974642
+      },
+      "country_entropy": 0.0019838385715582637,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999885916723
+      },
+      "region_entropy": 2.2195309285653546e-07
+    },
+    "NODE_0000100": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999980567435411
+      },
+      "country_entropy": 0.00024529494891405336,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757958536
+      },
+      "region_entropy": 1.2629146451987755e-05
+    },
+    "NODE_0000101": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999832244231204
+      },
+      "country_entropy": 0.0002123989997875445,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646810711
+      },
+      "region_entropy": 1.2786912956147863e-05
+    },
+    "NODE_0000102": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835768312263
+      },
+      "country_entropy": 0.00020835947814814318,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759550462
+      },
+      "region_entropy": 1.2626894332956071e-05
+    },
+    "NODE_0000103": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835406219277
+      },
+      "country_entropy": 0.00020882197247239903,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999176101183
+      },
+      "region_entropy": 1.2624826486955974e-05
+    },
+    "NODE_0000104": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999805672998026
+      },
+      "country_entropy": 0.0002452964436239845,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757917104
+      },
+      "region_entropy": 1.2629204855115663e-05
+    },
+    "NODE_0000106": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999996562649618
+      },
+      "country_entropy": 5.6029460064141885e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999887532115
+      },
+      "region_entropy": 2.1898257509300566e-07
+    },
+    "NODE_0000108": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999922897641
+      },
+      "country_entropy": 1.53901409042834e-07,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999998388025
+      },
+      "region_entropy": 3.806374630367025e-09
+    },
+    "NODE_0000109": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835699204365
+      },
+      "country_entropy": 0.00020843750647078557,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991758001193
+      },
+      "region_entropy": 1.2629086317702115e-05
+    },
+    "NODE_0000111": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999831953283327
+      },
+      "country_entropy": 0.0002127815650098159,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991649932438
+      },
+      "region_entropy": 1.2782500581443376e-05
+    },
+    "NODE_0000115": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Central African Republic": 0.03440479177536796,
+        "Israel": 0.08052417900080963,
+        "Italy": 0.03205192243808253,
+        "Senegal": 0.8158876706265185
+      },
+      "country_entropy": 0.785321403967374,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9965770839742427,
+        "Europe": 0.0020461115429966322,
+        "Middle-East": 0.0013768044827606359
+      },
+      "region_entropy": 0.025156567685853132
+    },
+    "NODE_0000116": {
+      "country": "Israel",
+      "country_confidence": {
+        "Central African Republic": 0.0016305341343817324,
+        "Israel": 0.5831515239906578,
+        "Italy": 0.0014273216084616754,
+        "Senegal": 0.40991733388258195
+      },
+      "country_entropy": 0.729629642508822,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.6313416344558841,
+        "Middle-East": 0.36815315830291845
+      },
+      "region_entropy": 0.6620732963021136
+    },
+    "NODE_0000117": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.9991944078670562
+      },
+      "country_entropy": 0.006890314242901392,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9993284713723879
+      },
+      "region_entropy": 0.005631641250930367
+    },
+    "NODE_0000118": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.9999914017950313
+      },
+      "country_entropy": 0.00011513901732613602,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9999965588412342
+      },
+      "region_entropy": 4.706472590045784e-05
+    },
+    "NODE_0000119": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.9999983344103585
+      },
+      "country_entropy": 2.6968100458673186e-05,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9999998753702746
+      },
+      "region_entropy": 2.1776049112176674e-06
+    },
+    "NODE_0000120": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.5739533019664885,
+        "Senegal": 0.4222039457349645
+      },
+      "country_entropy": 0.7128382240632172,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.6339299108521079,
+        "Middle-East": 0.3656945439427769
+      },
+      "region_entropy": 0.6597908695130468
+    },
+    "NODE_0000121": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.9991750616833335
+      },
+      "country_entropy": 0.007020316401401797,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9993264185881445
+      },
+      "region_entropy": 0.005646563617162333
+    },
+    "NODE_0000122": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.9999912200390586
+      },
+      "country_entropy": 0.00011725738729727501,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9999965485049975
+      },
+      "region_entropy": 4.719484354318057e-05
+    },
+    "NODE_0000123": {
+      "country": "Israel",
+      "country_confidence": {
+        "Israel": 0.9999983327647783
+      },
+      "country_entropy": 2.6991114997011093e-05,
+      "region": "Middle-East",
+      "region_confidence": {
+        "Middle-East": 0.9999998753187431
+      },
+      "region_entropy": 2.1784398762190253e-06
+    },
+    "NODE_0000124": {
+      "country": "Senegal",
+      "country_confidence": {
+        "Central African Republic": 0.018830816731506096,
+        "Israel": 0.04604528953847281,
+        "Italy": 0.0717533620838588,
+        "Senegal": 0.8338125994909467
+      },
+      "country_entropy": 0.7201287030432654,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9872607254957666,
+        "Europe": 0.012059440406717437
+      },
+      "region_entropy": 0.07089375521294017
+    },
+    "NODE_0000125": {
+      "country": "Italy",
+      "country_confidence": {
+        "Austria": 0.009782901293147968,
+        "Germany": 0.006480244147044257,
+        "Italy": 0.9749726570118165,
+        "Senegal": 0.0049199010238866825
+      },
+      "country_entropy": 0.1563853772932403,
+      "region": "Europe",
+      "region_confidence": {
+        "Africa": 0.005216811493589536,
+        "Europe": 0.9947572093080429
+      },
+      "region_entropy": 0.03292219435445829
+    },
+    "NODE_0000126": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9998660435007609
+      },
+      "country_entropy": 0.0015332393186126654,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999382093818722
+      },
+      "region_entropy": 0.0006635723877839229
+    },
+    "NODE_0000127": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999940656633981
+      },
+      "country_entropy": 8.548770988842623e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999976250776038
+      },
+      "region_entropy": 3.360997143565276e-05
+    },
+    "NODE_0000128": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9998641919658311
+      },
+      "country_entropy": 0.0013712687077591318,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991311310917
+      },
+      "region_entropy": 1.326071862269108e-05
+    },
+    "NODE_0000129": {
+      "country": "Italy",
+      "country_confidence": {
+        "Germany": 0.016225995089367475,
+        "Italy": 0.9836320452973796
+      },
+      "country_entropy": 0.08467382597571027,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991640527223
+      },
+      "region_entropy": 1.2795785356644511e-05
+    },
+    "NODE_0000130": {
+      "country": "Italy",
+      "country_confidence": {
+        "Germany": 0.008407435446300083,
+        "Italy": 0.9915822156797033
+      },
+      "country_entropy": 0.04869669110773289,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991535619356
+      },
+      "region_entropy": 1.2944587686199155e-05
+    },
+    "NODE_0000131": {
+      "country": "Italy",
+      "country_confidence": {
+        "Germany": 0.016161073048088854,
+        "Italy": 0.9836975650268156
+      },
+      "country_entropy": 0.08440062458930966,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757978008
+      },
+      "region_entropy": 1.2629119069846228e-05
+    },
+    "NODE_0000132": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999310753159538
+      },
+      "country_entropy": 0.0007439435061150995,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757978008
+      },
+      "region_entropy": 1.2629119069846228e-05
+    },
+    "NODE_0000133": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999974049843459
+      },
+      "country_entropy": 3.987900796322346e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991527720071
+      },
+      "region_entropy": 1.2955732636192714e-05
+    },
+    "NODE_0000134": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999571011675756
+      },
+      "country_entropy": 0.0004900068775448313,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991533418054
+      },
+      "region_entropy": 1.2947695960226306e-05
+    },
+    "NODE_0000135": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999982414609353
+      },
+      "country_entropy": 2.8396571298445075e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757947311
+      },
+      "region_entropy": 1.2629162435445791e-05
+    },
+    "NODE_0000136": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.999983569746791
+      },
+      "country_entropy": 0.0002084394758024927,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757978376
+      },
+      "region_entropy": 1.2629118549636078e-05
+    },
+    "NODE_0000137": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 0.9592160438622886,
+        "Hungary": 0.007934416262429078,
+        "Italy": 0.032368364723655375
+      },
+      "country_entropy": 0.19411740745254905,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999988239402623
+      },
+      "region_entropy": 1.759933601521921e-05
+    },
+    "NODE_0000138": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999828873783595
+      },
+      "country_entropy": 0.00021625712620417062,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991537281275
+      },
+      "region_entropy": 1.2942241258307917e-05
+    },
+    "NODE_0000139": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 0.9619151048275232,
+        "Hungary": 0.025240889968699692,
+        "Italy": 0.0122719294318666
+      },
+      "country_entropy": 0.18978584346613656,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999982739014206
+      },
+      "region_entropy": 2.5174228752729097e-05
+    },
+    "NODE_0000140": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999984911104541
+      },
+      "country_entropy": 2.4756692698928248e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646697736
+      },
+      "region_entropy": 1.2787072336197387e-05
+    },
+    "NODE_0000141": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999985087076233
+      },
+      "country_entropy": 2.449483008570714e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999175789154
+      },
+      "region_entropy": 1.262924108864146e-05
+    },
+    "NODE_0000142": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.999999991112518
+      },
+      "country_entropy": 1.8841117214240346e-07,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999884371125
+      },
+      "region_entropy": 2.247933058565437e-07
+    },
+    "NODE_0000143": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835699204365
+      },
+      "country_entropy": 0.00020843750647078557,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991758001193
+      },
+      "region_entropy": 1.2629086317702115e-05
+    },
+    "NODE_0000144": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999985177778672
+      },
+      "country_entropy": 2.4357275858658308e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869082961
+      },
+      "region_entropy": 1.2471258034005664e-05
+    },
+    "NODE_0000145": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999985177778672
+      },
+      "country_entropy": 2.4357275858658308e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869082961
+      },
+      "region_entropy": 1.2471258034005664e-05
+    },
+    "NODE_0000146": {
+      "country": "Italy",
+      "country_confidence": {
+        "Austria": 0.016860721102654214,
+        "Germany": 0.010114406417910789,
+        "Hungary": 0.003447536694323966,
+        "Italy": 0.9662500056923707
+      },
+      "country_entropy": 0.1918269616404568,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999221488352367
+      },
+      "region_entropy": 0.0008162818048163534
+    },
+    "NODE_0000147": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 0.49450145672273116,
+        "Hungary": 0.13204600140918016,
+        "Italy": 0.3346909902256175,
+        "Serbia": 0.029410262966365185
+      },
+      "country_entropy": 1.147042873005736,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999979528396945
+      },
+      "region_entropy": 2.920994605542356e-05
+    },
+    "NODE_0000148": {
+      "country": "Hungary",
+      "country_confidence": {
+        "Austria": 0.2374175276983067,
+        "Hungary": 0.4749873954515077,
+        "Italy": 0.14931382350512254,
+        "Serbia": 0.12560269496832055
+      },
+      "country_entropy": 1.3220346465280062,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999996445394422
+      },
+      "region_entropy": 4.927190040554495e-05
+    },
+    "NODE_0000149": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 0.9957052573155558,
+        "Hungary": 0.001100124352168425,
+        "Italy": 0.0029353050820768484
+      },
+      "country_entropy": 0.03140449643342356,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999147556647
+      },
+      "region_entropy": 1.3028159060685086e-05
+    },
+    "NODE_0000150": {
+      "country": "Austria",
+      "country_confidence": {
+        "Austria": 0.9999616738289989
+      },
+      "country_entropy": 0.00046389028397471446,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757096798
+      },
+      "region_entropy": 1.2630357089180161e-05
+    },
+    "NODE_0000151": {
+      "country": "Italy",
+      "country_confidence": {
+        "Austria": 0.00469547461599515,
+        "Germany": 0.021305605231423837,
+        "Italy": 0.971808595591146
+      },
+      "country_entropy": 0.15215898894686228,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999959945548929
+      },
+      "region_entropy": 5.447991817032501e-05
+    },
+    "NODE_0000152": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9994881031629846
+      },
+      "country_entropy": 0.004796181441803103,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999996825697669
+      },
+      "region_entropy": 4.4352470024731896e-05
+    },
+    "NODE_0000153": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999999540674938
+      },
+      "country_entropy": 8.637064371716325e-07,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999845222998
+      },
+      "region_entropy": 2.963889502705609e-07
+    },
+    "NODE_0000155": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9949648769380154,
+        "Italy": 0.004617804341619509
+      },
+      "country_entropy": 0.03369543595150313,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999986128142233
+      },
+      "region_entropy": 2.052633472468907e-05
+    },
+    "NODE_0000156": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9997532977691267
+      },
+      "country_entropy": 0.0025536312901248085,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991278319705
+      },
+      "region_entropy": 1.3308840894402745e-05
+    },
+    "NODE_0000157": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999827876884517
+      },
+      "country_entropy": 0.00021992666171244708,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991754438771
+      },
+      "region_entropy": 1.2634126349261602e-05
+    },
+    "NODE_0000158": {
+      "country": "Germany",
+      "country_confidence": {
+        "France": 0.009250264584312605,
+        "Germany": 0.990264222582933
+      },
+      "country_entropy": 0.05733167207287044,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999978570013683
+      },
+      "region_entropy": 3.079324564461512e-05
+    },
+    "NODE_0000159": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999410702306326
+      },
+      "country_entropy": 0.0006864534081142513,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991485880076
+      },
+      "region_entropy": 1.3015043158009896e-05
+    },
+    "NODE_0000160": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999724788198999
+      },
+      "country_entropy": 0.0003346676212203901,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999985416738039
+      },
+      "region_entropy": 2.1515296092904484e-05
+    },
+    "NODE_0000161": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999993228564517
+      },
+      "country_entropy": 1.0382417558780328e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999883035259
+      },
+      "region_entropy": 2.2724604915901777e-07
+    },
+    "NODE_0000162": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847516625588
+      },
+      "country_entropy": 0.0001934917648712434,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645239219
+      },
+      "region_entropy": 1.2789134090993045e-05
+    },
+    "NODE_0000163": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.999985078425187
+      },
+      "country_entropy": 0.00018976935723690467,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757978961
+      },
+      "region_entropy": 1.2629117723387991e-05
+    },
+    "NODE_0000164": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.999984757438056
+      },
+      "country_entropy": 0.00019342657775208127,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646491417
+      },
+      "region_entropy": 1.2787364312313628e-05
+    },
+    "NODE_0000165": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.999985078425187
+      },
+      "country_entropy": 0.00018976935723690467,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757978961
+      },
+      "region_entropy": 1.2629117723387991e-05
+    },
+    "NODE_0000166": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999846951885889
+      },
+      "country_entropy": 0.00019413626033167562,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991623947995
+      },
+      "region_entropy": 1.2819356470721848e-05
+    },
+    "NODE_0000168": {
+      "country": "Italy",
+      "country_confidence": {
+        "Italy": 0.9999982218084714
+      },
+      "country_entropy": 2.868653990935887e-05,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991643567084
+      },
+      "region_entropy": 1.2791497172133801e-05
+    },
+    "NODE_0000169": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847504635427
+      },
+      "country_entropy": 0.00019350485249562105,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646722854
+      },
+      "region_entropy": 1.2787036809851613e-05
+    },
+    "NODE_0000171": {
+      "country": "Italy",
+      "country_confidence": {
+        "Austria": 0.006159494875688732,
+        "Italy": 0.9936796947223115
+      },
+      "country_entropy": 0.03938461788908309,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991599204288
+      },
+      "region_entropy": 1.2854420635681682e-05
+    },
+    "NODE_0000172": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850853159254
+      },
+      "country_entropy": 0.00018969140085569371,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759505692
+      },
+      "region_entropy": 1.2626957577249786e-05
+    },
+    "NODE_0000173": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999817419672711
+      },
+      "country_entropy": 0.00022857854337676058,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999989946896092
+      },
+      "region_entropy": 1.5204906875939072e-05
+    },
+    "NODE_0000174": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850625868708
+      },
+      "country_entropy": 0.00018994804836342387,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991756323684
+      },
+      "region_entropy": 1.2631459296597167e-05
+    },
+    "NODE_0000175": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847590819249
+      },
+      "country_entropy": 0.00019340802366499258,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646811007
+      },
+      "region_entropy": 1.2786912535386054e-05
+    },
+    "NODE_0000176": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850855130845
+      },
+      "country_entropy": 0.00018968918013380795,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759506932
+      },
+      "region_entropy": 1.2626955825654911e-05
+    },
+    "NODE_0000177": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9994310391312737
+      },
+      "country_entropy": 0.004823631096940063,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999877771947
+      },
+      "region_entropy": 2.3696376589132848e-07
+    },
+    "NODE_0000179": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.035317480271053296,
+        "Netherlands": 0.9644459836829405
+      },
+      "country_entropy": 0.1551580924792791,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999987593646988
+      },
+      "region_entropy": 1.8503606279628734e-05
+    },
+    "NODE_0000180": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.0014098361183255172,
+        "Netherlands": 0.9979505064875701
+      },
+      "country_entropy": 0.016032642771965686,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991385886152
+      },
+      "region_entropy": 1.3156681898133048e-05
+    },
+    "NODE_0000182": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.014427198389813677,
+        "Netherlands": 0.985308520495759
+      },
+      "country_entropy": 0.07807870861403719,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759478126
+      },
+      "region_entropy": 1.2626996519353959e-05
+    },
+    "NODE_0000183": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.012811651031076982,
+        "Netherlands": 0.9864528857457788
+      },
+      "country_entropy": 0.07484467922873539,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999985000951406
+      },
+      "region_entropy": 2.2086416139035684e-05
+    },
+    "NODE_0000184": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999996699939081
+      },
+      "country_entropy": 5.337966327754767e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999885884446
+      },
+      "region_entropy": 2.2201232475545873e-07
+    },
+    "NODE_0000186": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999853975187687
+      },
+      "country_entropy": 0.0001861262150724459,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999186910407
+      },
+      "region_entropy": 1.2471228183744984e-05
+    },
+    "NODE_0000187": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999996622456356
+      },
+      "country_entropy": 5.448564278123643e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999887474667
+      },
+      "region_entropy": 2.1908808259500204e-07
+    },
+    "NODE_0000191": {
+      "country": "Germany",
+      "country_confidence": {
+        "Belgium": 0.003625586813751715,
+        "Germany": 0.9948778536027312,
+        "Netherlands": 0.0013429868289648846
+      },
+      "country_entropy": 0.03601527829733584,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999987144268085
+      },
+      "region_entropy": 1.9128332851638288e-05
+    },
+    "NODE_0000192": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999983
+      },
+      "country_entropy": -9.520847763538512e-13,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.998638843603475e-13
+    },
+    "NODE_0000193": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999854048478508
+      },
+      "country_entropy": 0.0001860431271355824,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991870674361
+      },
+      "region_entropy": 1.246900440177567e-05
+    },
+    "NODE_0000195": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9994183327009567
+      },
+      "country_entropy": 0.005142131698178286,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991644745133
+      },
+      "region_entropy": 1.278983254897002e-05
+    },
+    "NODE_0000196": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850718192734
+      },
+      "country_entropy": 0.0001898439440295502,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757911539
+      },
+      "region_entropy": 1.2629212966827713e-05
+    },
+    "NODE_0000197": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847587624339
+      },
+      "country_entropy": 0.0001934116194243751,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646788462
+      },
+      "region_entropy": 1.2786944352904644e-05
+    },
+    "NODE_0000198": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850855058038
+      },
+      "country_entropy": 0.00018968926218814432,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759506616
+      },
+      "region_entropy": 1.2626956272131284e-05
+    },
+    "NODE_0000199": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999844322909122
+      },
+      "country_entropy": 0.00019712343103032122,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991534092006
+      },
+      "region_entropy": 1.2946744462063826e-05
+    },
+    "NODE_0000202": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847514860379
+      },
+      "country_entropy": 0.0001934937518013095,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645216976
+      },
+      "region_entropy": 1.2789165482421991e-05
+    },
+    "NODE_0000204": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999844400883761
+      },
+      "country_entropy": 0.0001970356132675829,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991535687246
+      },
+      "region_entropy": 1.2944492022176579e-05
+    },
+    "NODE_0000205": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9998965472925164
+      },
+      "country_entropy": 0.0011173494794832013,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646737717
+      },
+      "region_entropy": 1.2787015965752296e-05
+    },
+    "NODE_0000206": {
+      "country": "Germany",
+      "country_confidence": {
+        "France": 0.008989430073447869,
+        "Germany": 0.990737075872109
+      },
+      "country_entropy": 0.054152683946652486,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759505905
+      },
+      "region_entropy": 1.2626957276881062e-05
+    },
+    "NODE_0000207": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847122257778
+      },
+      "country_entropy": 0.0001939430108349271,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991628871499
+      },
+      "region_entropy": 1.2812380443799421e-05
+    },
+    "NODE_0000208": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9813028801082752,
+        "Netherlands": 0.018638191961395052
+      },
+      "country_entropy": 0.09343506744490572,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999989701169859
+      },
+      "region_entropy": 1.5550304790462646e-05
+    },
+    "NODE_0000209": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.018414019057630057,
+        "Netherlands": 0.9815087676343841
+      },
+      "country_entropy": 0.09270961663396282,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999998970505607
+      },
+      "region_entropy": 1.554489316972293e-05
+    },
+    "NODE_0000210": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999262395071788
+      },
+      "country_entropy": 0.0008374241671859717,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991586156795
+      },
+      "region_entropy": 1.2872957410390505e-05
+    },
+    "NODE_0000211": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999996838728152
+      },
+      "country_entropy": 5.1205333030543504e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999887554317
+      },
+      "region_entropy": 2.1894179486450522e-07
+    },
+    "NODE_0000212": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999840982243755
+      },
+      "country_entropy": 0.0002012931057327553,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991758673482
+      },
+      "region_entropy": 1.262813515247552e-05
+    },
+    "NODE_0000213": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999853975291878
+      },
+      "country_entropy": 0.00018612604449419758,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869104541
+      },
+      "region_entropy": 1.2471227518602526e-05
+    },
+    "NODE_0000214": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999879577262
+      },
+      "country_entropy": 2.3232609428921517e-07,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999998364287
+      },
+      "region_entropy": 3.859986016264636e-09
+    },
+    "NODE_0000215": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850844793604
+      },
+      "country_entropy": 0.00018970088590842057,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759260937
+      },
+      "region_entropy": 1.2627303989137671e-05
+    },
+    "NODE_0000219": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999822048649866
+      },
+      "country_entropy": 0.00022323266194709205,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999990197013507
+      },
+      "region_entropy": 1.4851265489973307e-05
+    },
+    "NODE_0000220": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9996447744593892
+      },
+      "country_entropy": 0.003200245877003348,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991581199369
+      },
+      "region_entropy": 1.2879996304520726e-05
+    },
+    "NODE_0000221": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.985431880847436,
+        "Netherlands": 0.014507190585007157
+      },
+      "country_entropy": 0.07658015299434717,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999986660703433
+      },
+      "region_entropy": 1.979871086712264e-05
+    },
+    "NODE_0000222": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999773052799549
+      },
+      "country_entropy": 0.00027538040070106,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757014196
+      },
+      "region_entropy": 1.2630482610640188e-05
+    },
+    "NODE_0000223": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999996721669723
+      },
+      "country_entropy": 5.296508646937771e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999988596254
+      },
+      "region_entropy": 2.2186900987665154e-07
+    },
+    "NODE_0000224": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847606090527
+      },
+      "country_entropy": 0.00019339051998411587,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648359701
+      },
+      "region_entropy": 1.2784723553324879e-05
+    },
+    "NODE_0000225": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999853975372003
+      },
+      "country_entropy": 0.0001861259543308534,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991869105165
+      },
+      "region_entropy": 1.2471226635147887e-05
+    },
+    "NODE_0000226": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9995989305441331
+      },
+      "country_entropy": 0.003572166962906452,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991606116712
+      },
+      "region_entropy": 1.2844649799477166e-05
+    },
+    "NODE_0000227": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999748762883358
+      },
+      "country_entropy": 0.0003040447927427589,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991758947853
+      },
+      "region_entropy": 1.2627746935337128e-05
+    },
+    "NODE_0000228": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847666868444
+      },
+      "country_entropy": 0.0001933221902008181,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648405187
+      },
+      "region_entropy": 1.2784659364724204e-05
+    },
+    "NODE_0000229": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850856852937
+      },
+      "country_entropy": 0.00018968723746755426,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759529167
+      },
+      "region_entropy": 1.2626924416106794e-05
+    },
+    "NODE_0000230": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847666869258
+      },
+      "country_entropy": 0.00019332218905481163,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648405387
+      },
+      "region_entropy": 1.2784659068276747e-05
+    },
+    "NODE_0000231": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850856852947
+      },
+      "country_entropy": 0.00018968723745528985,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759529169
+      },
+      "region_entropy": 1.2626924412718955e-05
+    },
+    "NODE_0000232": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9836094447776025,
+        "Netherlands": 0.016331441626029463
+      },
+      "country_entropy": 0.08414248322658903,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999988663909104
+      },
+      "region_entropy": 1.7010034524521698e-05
+    },
+    "NODE_0000233": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Germany": 0.01653345707462068,
+        "Netherlands": 0.9833885003623829
+      },
+      "country_entropy": 0.08514015959114775,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999988510489516
+      },
+      "region_entropy": 1.7222921327403338e-05
+    },
+    "NODE_0000234": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9995368264359825
+      },
+      "country_entropy": 0.004045254128681427,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991504281168
+      },
+      "region_entropy": 1.2988974355288936e-05
+    },
+    "NODE_0000235": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999845065383381
+      },
+      "country_entropy": 0.000196244883053507,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645189715
+      },
+      "region_entropy": 1.2789203822750062e-05
+    },
+    "NODE_0000236": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999742822275458
+      },
+      "country_entropy": 0.00030786348423149227,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991644800008
+      },
+      "region_entropy": 1.27897547257607e-05
+    },
+    "NODE_0000237": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9995651034465489
+      },
+      "country_entropy": 0.003836212117739987,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991733692816
+      },
+      "region_entropy": 1.2663615869080215e-05
+    },
+    "NODE_0000238": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999854048478508
+      },
+      "country_entropy": 0.0001860431271355824,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991870674361
+      },
+      "region_entropy": 1.246900440177567e-05
+    },
+    "NODE_0000239": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850929371824
+      },
+      "country_entropy": 0.000189605206341514,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999176107854
+      },
+      "region_entropy": 1.2624732262053863e-05
+    },
+    "NODE_0000240": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850929372627
+      },
+      "country_entropy": 0.00018960520520683346,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999176107874
+      },
+      "region_entropy": 1.2624731968602493e-05
+    },
+    "NODE_0000241": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999726596236642
+      },
+      "country_entropy": 0.00032744222773755315,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991528909733
+      },
+      "region_entropy": 1.2954061446140426e-05
+    },
+    "NODE_0000243": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850855464248
+      },
+      "country_entropy": 0.0001896888018998542,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528528
+      },
+      "region_entropy": 1.2626925316874485e-05
+    },
+    "NODE_0000244": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999996756584533
+      },
+      "country_entropy": 5.244212680603691e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999988587135
+      },
+      "region_entropy": 2.2203635715409103e-07
+    },
+    "NODE_0000245": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.999984146715084
+      },
+      "country_entropy": 0.000200343768721898,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991530853324
+      },
+      "region_entropy": 1.2951317197162872e-05
+    },
+    "NODE_0000247": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850853416167
+      },
+      "country_entropy": 0.00018969111421261243,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759484399
+      },
+      "region_entropy": 1.2626987654838004e-05
+    },
+    "NODE_0000248": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999844185155241
+      },
+      "country_entropy": 0.00019727847214835967,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991532497791
+      },
+      "region_entropy": 1.294899542312295e-05
+    },
+    "NODE_0000249": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999998317665
+      },
+      "country_entropy": 3.957070253827195e-09,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999977208
+      },
+      "region_entropy": 6.158084328758803e-11
+    },
+    "NODE_0000250": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850779361948
+      },
+      "country_entropy": 0.00018977487244893008,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757934479
+      },
+      "region_entropy": 1.2629180562353976e-05
+    },
+    "NODE_0000253": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999767628773519
+      },
+      "country_entropy": 0.00028141412607121327,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648383086
+      },
+      "region_entropy": 1.2784690551824415e-05
+    },
+    "NODE_0000254": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999849032525432
+      },
+      "country_entropy": 0.00019174185446184326,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528858
+      },
+      "region_entropy": 1.2626924853562553e-05
+    },
+    "NODE_0000255": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9996388260027732
+      },
+      "country_entropy": 0.003272582460808775,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991646855503
+      },
+      "region_entropy": 1.2786849743110883e-05
+    },
+    "NODE_0000256": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9845954512615864,
+        "Netherlands": 0.014488937987379047
+      },
+      "country_entropy": 0.0833401054237039,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648383472
+      },
+      "region_entropy": 1.2784689993760429e-05
+    },
+    "NODE_0000257": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.14781900650795143,
+        "Germany": 0.24068557823517653,
+        "Netherlands": 0.6104733909414533
+      },
+      "country_entropy": 0.9360062977805458,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999175952886
+      },
+      "region_entropy": 1.2626924846749867e-05
+    },
+    "NODE_0000259": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999996745387381
+      },
+      "country_entropy": 5.279849885369439e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999887506454
+      },
+      "region_entropy": 2.1902970101297106e-07
+    },
+    "NODE_0000260": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999847515159143
+      },
+      "country_entropy": 0.00019349338062742838,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645195914
+      },
+      "region_entropy": 1.278919507378277e-05
+    },
+    "NODE_0000261": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999075058172705
+      },
+      "country_entropy": 0.0010116495290852655,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999174531909
+      },
+      "region_entropy": 1.2647105423842793e-05
+    },
+    "NODE_0000262": {
+      "country": "Germany",
+      "country_confidence": {
+        "France": 0.007963447654729875,
+        "Germany": 0.9917614129407836
+      },
+      "country_entropy": 0.04928191375191281,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999990693975178
+      },
+      "region_entropy": 1.4146736539460567e-05
+    },
+    "NODE_0000263": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.999984742734507
+      },
+      "country_entropy": 0.00019359212380391403,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991645207317
+      },
+      "region_entropy": 1.278917911255256e-05
+    },
+    "NODE_0000264": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999843774442002
+      },
+      "country_entropy": 0.00019769319241749817,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999164455646
+      },
+      "region_entropy": 1.279009899747969e-05
+    },
+    "NODE_0000266": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999807624926059
+      },
+      "country_entropy": 0.00023950303106705796,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999989739897166
+      },
+      "region_entropy": 1.5495414557270934e-05
+    },
+    "NODE_0000267": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999846438136563
+      },
+      "country_entropy": 0.0001948423036987232,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991536315328
+      },
+      "region_entropy": 1.2946135664434028e-05
+    },
+    "NODE_0000268": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.999323319243399
+      },
+      "country_entropy": 0.005649156673502958,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999990210833245
+      },
+      "region_entropy": 1.483002086686479e-05
+    },
+    "NODE_0000269": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9759256031066732,
+        "Netherlands": 0.024015243006411724
+      },
+      "country_entropy": 0.11402546525603284,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991627376165
+      },
+      "region_entropy": 1.281448245558649e-05
+    },
+    "NODE_0000270": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9994349187680206
+      },
+      "country_entropy": 0.00481957077300276,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759239675
+      },
+      "region_entropy": 1.262733396210267e-05
+    },
+    "NODE_0000271": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9994381267757401
+      },
+      "country_entropy": 0.004777837082209062,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999884252289
+      },
+      "region_entropy": 2.2501121716171283e-07
+    },
+    "NODE_0000272": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999993625224989
+      },
+      "country_entropy": 9.903102696201996e-06,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999889078356
+      },
+      "region_entropy": 2.1613680055318312e-07
+    },
+    "NODE_0000273": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999844322755025
+      },
+      "country_entropy": 0.00019712360401936795,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991534092129
+      },
+      "region_entropy": 1.294674428769898e-05
+    },
+    "NODE_0000274": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999850782482205
+      },
+      "country_entropy": 0.00018977135339335205,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757956714
+      },
+      "region_entropy": 1.2629149150628165e-05
+    },
+    "NODE_0000275": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999672871703891
+      },
+      "country_entropy": 0.00038961275221038107,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991757934974
+      },
+      "region_entropy": 1.2629179732463864e-05
+    },
+    "NODE_0000276": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9997750260836997
+      },
+      "country_entropy": 0.002193907248964766,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991649932103
+      },
+      "region_entropy": 1.2782501054216054e-05
+    },
+    "NODE_0000277": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.014122910247632028,
+        "Netherlands": 0.9856250823423925
+      },
+      "country_entropy": 0.07668708928251756,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759550457
+      },
+      "region_entropy": 1.262689433958099e-05
+    },
+    "NODE_0000278": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9997554781507304
+      },
+      "country_entropy": 0.0023981316409817446,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.999999164521685
+      },
+      "region_entropy": 1.2789165525466667e-05
+    },
+    "NODE_0000279": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Belgium": 0.013916054086183282,
+        "Netherlands": 0.9858290989589995
+      },
+      "country_entropy": 0.0758298062136974,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648360291
+      },
+      "region_entropy": 1.278472270905557e-05
+    },
+    "NODE_0000280": {
+      "country": "Belgium",
+      "country_confidence": {
+        "Belgium": 0.9849920236719768,
+        "Netherlands": 0.014917193935178295
+      },
+      "country_entropy": 0.0786037456212072,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528537
+      },
+      "region_entropy": 1.2626925305665986e-05
+    },
+    "NODE_0000281": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999797173994649
+      },
+      "country_entropy": 0.00025486548647155814,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991648360291
+      },
+      "region_entropy": 1.278472270905557e-05
+    },
+    "NODE_0000282": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999684368197276
+      },
+      "country_entropy": 0.0003696050522223976,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991486778548
+      },
+      "region_entropy": 1.3013779244983031e-05
+    },
+    "NODE_0000297": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999835217072097
+      },
+      "country_entropy": 0.00020903550786458743,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999991759528537
+      },
+      "region_entropy": 1.2626925305665986e-05
+    }
+  }
+}

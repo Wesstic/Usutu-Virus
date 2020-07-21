@@ -78,7 +78,7 @@
       "type": "CDS"
     },
     "nuc": {
-      "end": 11064,
+      "end": 10837,
       "seqid": "config/usutu_outgroup.gb",
       "start": 1,
       "strand": "+",
@@ -101,31 +101,6 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "AY453412/AF2/SouthAfrica/1958": {
-      "aa_muts": {
-        "2K": [],
-        "E": [
-          "T423P"
-        ],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [
-          "L192M",
-          "R527I",
-          "E529Q"
-        ],
-        "NS4A": [
-          "L44F"
-        ],
-        "NS4B": [],
-        "NS5": [
-          "S838D"
-        ],
         "PreM": [],
         "anchC": []
       }
@@ -599,9 +574,7 @@
     "KJ438720/EU3/Germany/2011": {
       "aa_muts": {
         "2K": [],
-        "E": [
-          "I411V"
-        ],
+        "E": [],
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
@@ -655,9 +628,7 @@
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
-        "NS4A": [
-          "A90T"
-        ],
+        "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
@@ -672,9 +643,7 @@
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
-        "NS4A": [
-          "A90T"
-        ],
+        "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
@@ -1099,11 +1068,11 @@
     "KJ438750/EU3/Germany/2011": {
       "aa_muts": {
         "2K": [],
-        "E": [
-          "I411V"
-        ],
+        "E": [],
         "NS1": [],
-        "NS2A": [],
+        "NS2A": [
+          "P145S"
+        ],
         "NS2B": [],
         "NS3": [
           "L274V"
@@ -1123,7 +1092,9 @@
           "T487S"
         ],
         "NS1": [],
-        "NS2A": [],
+        "NS2A": [
+          "P145S"
+        ],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
@@ -1163,10 +1134,7 @@
         ],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "V17G",
-          "R24Q"
-        ],
+        "NS5": [],
         "PreM": [
           "Y120N"
         ],
@@ -1274,9 +1242,7 @@
         "NS4B": [
           "V220L"
         ],
-        "NS5": [
-          "V17G"
-        ],
+        "NS5": [],
         "PreM": [
           "K108R"
         ],
@@ -1597,9 +1563,7 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [
-          "Y120N"
-        ],
+        "PreM": [],
         "anchC": []
       }
     },
@@ -1620,9 +1584,7 @@
         "NS5": [
           "P637S"
         ],
-        "PreM": [
-          "Y120N"
-        ],
+        "PreM": [],
         "anchC": []
       }
     },
@@ -2805,28 +2767,6 @@
         ]
       }
     },
-    "MF374485/AF2/SouthAfrica/1959": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [
-          "I80T"
-        ],
-        "NS2B": [],
-        "NS3": [
-          "P206H"
-        ],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [
-          "P687T",
-          "D753G"
-        ],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "MF991886/EU2/Austria/2017": {
       "aa_muts": {
         "2K": [],
@@ -3197,35 +3137,6 @@
         "anchC": []
       }
     },
-    "MK230893/AF3/Belgium/2017": {
-      "aa_muts": {
-        "2K": [],
-        "E": [
-          "T76M"
-        ],
-        "NS1": [
-          "M96T",
-          "T208A",
-          "V242I"
-        ],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [
-          "I16M",
-          "R174K",
-          "L189F"
-        ],
-        "NS5": [
-          "T214S"
-        ],
-        "PreM": [],
-        "anchC": [
-          "V124I"
-        ]
-      }
-    },
     "MK419834/AF3/Belgium/2018": {
       "aa_muts": {
         "2K": [],
@@ -3586,9 +3497,12 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "K220Q"
+        ],
         "PreM": [],
         "anchC": [
+          "P5S",
           "P109L"
         ]
       }
@@ -4429,15 +4343,15 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "I242V"
-        ],
+        "NS1": [],
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "H466R"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -5117,22 +5031,6 @@
       }
     },
     "NODE_0000000": {
-      "aa_muts": {},
-      "aa_sequences": {
-        "2K": "SQTDNQLAVFLICVLLVVGVVAA",
-        "E": "FNCLGMSNRDFLEGVSGATWVDVVLEGDSCITIMAKDKPTIDIKMMETEATNLAEVRSYCYLATVSDVSTVSNCPTTGEAHNPKRAEDTYVCKSGVTDRGWGNGCGLFGKGSIDTCANFTCSLKAVGRMIQPENVKYEVGIFIHGSTSSDTHGNYSSQLGASQAGRFTITPNSPAITVKMGDYGEISVECEPRNGLNTEAYYIMSVGTKHFLVHREWFNDLALPWTSPASSNWRNREILLEFEEPHATKQSVVALGSQEGALHQALAGAVPVSFSSSVKLTSGHLKCRVKMEKLTLKGTTYGMCTEKFSFAKNPADTGHSTVVLELQYTGSDGPCKIPISIVASLSDLTPIGRMVTANPYVASSEANAKVLVEMEPPFGDSYIVVGRGDKQINHHWHKAGSSIGKAFITTIKGAQRLAALGDTAWDFGSVGGIFNSVGKAVHQVFGGAFRTLFGGMSWITQGLMGALLLWMGVNARDRSIALVMLATGGVLLFLATSVHA",
-        "NS1": "DSGCAIDVGRRELRCGQGIFIHNDVEAWVDRYKFMPETPKQLAKVIEQAHAKGICGLRSVSRLEHVMWENIRDELNTLLRENAVDLSVVVEKPKGMYKSAPQRLALTSEEFEIGWKAWGKSLVFAPELANHTFVVDGPETKECPDVKRAWNSLEIEDFGFGIMSTRVWLKVREHNTTDCDSSIIGTAVKGDIAVHSDLSYWIESHKNTTWRLERAVFGEIKSCTWPETHTLWSDGVVESDLVVPVTLAGPKSNHNRREGYKVQSQGPWDEEDIVLDFDYCPGTTVTITEACGKRGPSIRTTTSSGRLVTDWCCRSCTLPPLRYKTKNGCWYGMEIRPMKHDETTLVKSSVSA",
-        "NS2A": "YRSDMIDPFQLGLLVMFLATQEVLRKRWTARLTVPAIVGALLVLILGGITYTDLLRYVLLVGAAFAEANSGGDVVHLALIAAFKIQPGFLAMTFLRGKWTNQENILLALGAAFFQMAATDLDLSLPGILNATATAWMLLRAATQPSTSAIVMPLLCLLAPGMRLLYLDTYRITLIIIGICSLIGERRRAAAKKKGAVLLGLALTSTGQFSASVMAAGLMACNPNKKR",
-        "NS2B": "GWPATEVLTAVGLMFAIVGGLAELDVDSMSIPFVLAGLMAVSYTISGKSTDLWLERAADITWETDAAITGTSQRLDVKLDDDGDFHLINDPGVPWKIWVIRMTALGFAAWTPWAIIPAGIGYWLTVKYAKR",
-        "NS3": "GGVFWDTPAPRTYPKGDTSPGVYRIMSRYILGTYQAGVGVMYEGVLHTLWHTTRGAAIRSGEGRLTPYWGSVKEDRITYGGPWKFDRKWNGLDDVQLIIVAPGKAAINIQTKPGVFKTPQGEIGAVSLDYPEGTSGSPILDKNGDIVGLYGNGVILGNGSYVSAIVQGEREEEPVPEAYNADMLRKKQLTVLDLHPGAGKTRRILPQIIKDAIQRRLRTAVLAPTRVVAAEMAEALKGLPVRYLTPAVNREHSGTEIVDVMCHATLTHRLMSPLRVPNYNLFVMDEAHFTDPASIAARGYIATKVELGEAAAIFMTATPPGTHDPFPDTNAPVTDIQAEVPDRAWSSGFEWITEYTGKTVWFVASVKMGNEIAQCLQRAGKKVIQLNRKSYDTEYPKCKNGDWDFVITTDISEMGANFGASRVIDCRKSVKPTILEEGEGRVILSNPSPITSASAAQRRGRVGRNPSQIGDEYHYGGGTSEDDTIAAHWTEAKIMLDNIHLPNGLVAQMYGPERDKAFTMDGEYRLRGEERKTFLELLRTADLPVWLAYKVASNGIQYTDRKWCFDGPRSNIILEDNNEVEIVTRTGERKMLKPRWLDARVYSDHQSLKWFKDFAAGKR",
-        "NS4A": "SAVGFLEVLGRMPEHFAGKTREAFDTMYLVATAEKGGKAHRMALEELPDALETITLIVALAVMTAGVFLLLVQRRGIGKLGLGGMVLGLATFFLWMADVSGTKIAGTLLLALLMMIVLIPEPEKQR",
-        "NS4B": "NEYGMLERTKSDLGKMFSGTRQPQSALPLPSMNALALDLRPATAWALYGGSTVVLTPLIKHLVTSEYITTSLASISAQAGSLFNLPRGLPFTELDLTVVLVFLGCWGQVSLTTLITAAALATLHYGYMLPGWQAEALRAAQRRTAAGIMKNAVVDGLVATDVPELERTTPLMQKKVGQILLIGVSAAALLVNPCVTTVREAGILISAALLTLWDNGAIAVWNSTTATGLCHVIRGNWLAGASIAWTLIKNADKPACKR",
-        "NS5": "KLRWMVERQFVKPIGKVVDLGCGRGGWSYYAATLKGVQEVRGYTKGGPGHEEPMLMQSYGWNLVTMKSGVDVYYKPSEPCDTLFCDIGESSSSAEVEEQRTLRILEMVSDWLQRGPREFCIKVLCPYMPRVMERLEVLQRRYGGGLVRVPLSRNSNHEMYWVSGAAGNIVHAVNMTSQVLIGRMEKRTWHGPKYEEDVNLGSGTRAVGKPQPHANQEKIKARIQRLKEEYAATWHHDKDHPYRTWTYHGSYEVKPTGSAGSLVNGVVRLMSKPWDAILNVTTMAMTDTTPFGQQRVFKEKVDTKAPEPPSGVREVMDETTNWLWAFLAREKKPRLCTREEFKRKVNSNAALGAMFEEQNQWSSAREAVEDPRFWEMVDEERENHLKGECHTCIYNMMGKREKKLGEFGKAKGSRAIWFMWLGARFLEFEALGFLNEDHWLGRKNSGGGVEGLGVQKLGYILREMSHHSGGKMYADDTAGWDTRITRADLDNEAKVLELMEGEHRQLARAIIELTYKHKVVKVMRPGTDGKTVMDVISREDQRGSGQVVTYALNTFTNIAVQLIRLMEAEGVIGQEHLESLPRKTKYAVRTWLFENGEERVTRMAVSGDDCVVKPLDDRFANALHFLNSMSKVRKDVPEWKPSSGWHDWQQVPFCSNHFQELIMKDGRTLVVPCRGQDELIGRARVSPGSGWNVRDTACLAKAYAQMWLLLYFHRRDLRLMANAICSAVPSNWVPTGRTSWSVHATGEWMTTDDMLEVWNKVWIQDNEWMLDKTPVQSWTDIPYTGKREDIWCGSLIGTRTRATWAENIYAAINQVRAIIGQEKYRDYMLSLRRYEEVSVQEDRVL",
-        "PreM": "LKLSNFQGKVMMTINATDMADVIVVPTQHGKNQCWIRAMDVGYMCDDTITYECPKLDAGNDPEDIDCWCDKQPMYVHYGRCTRTRHSKRSRRSIAVQTHGESMLANKKDAWLDSTKASRYLMKTENWIIRNPGYAFVAVLLGWMLGS",
-        "anchC": "MSKKPGGPGRNRAINMLKRGIPRVFPLVGVKRVVMGLLDGRGPVRFVLALMTFFKFTALAPTKALLGRWKRINKTTAMKHLTSFKKELGTMINVVNNRGTKKKRGNNGPGLVMIITLMTAVSMVSS"
-      }
-    },
-    "NODE_0000001": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5147,16 +5045,44 @@
         "anchC": []
       }
     },
-    "NODE_0000002": {
+    "NODE_0000001": {
       "aa_muts": {
         "2K": [],
         "E": [],
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [],
+        "NS3": [
+          "I115V"
+        ],
         "NS4A": [],
         "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "2K": [],
+        "E": [
+          "G276S",
+          "G320S",
+          "N497S"
+        ],
+        "NS1": [
+          "R324K"
+        ],
+        "NS2A": [
+          "N122D",
+          "F123L"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "S19G"
+        ],
         "NS5": [],
         "PreM": [],
         "anchC": [
@@ -5177,9 +5103,7 @@
         ],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "G260S"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -5194,7 +5118,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "S260G"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -5217,34 +5143,6 @@
       }
     },
     "NODE_0000006": {
-      "aa_muts": {
-        "2K": [],
-        "E": [
-          "S276G",
-          "S320G",
-          "S497N"
-        ],
-        "NS1": [
-          "K324R"
-        ],
-        "NS2A": [
-          "D122N",
-          "L123F"
-        ],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [
-          "G19S"
-        ],
-        "NS5": [
-          "G260S"
-        ],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000007": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -5289,7 +5187,7 @@
         ]
       }
     },
-    "NODE_0000008": {
+    "NODE_0000007": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5310,7 +5208,7 @@
         "anchC": []
       }
     },
-    "NODE_0000009": {
+    "NODE_0000008": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -5331,7 +5229,7 @@
         "anchC": []
       }
     },
-    "NODE_0000010": {
+    "NODE_0000009": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5346,24 +5244,7 @@
         "anchC": []
       }
     },
-    "NODE_0000011": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [
-          "V115I"
-        ],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000012": {
+    "NODE_0000010": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5380,7 +5261,7 @@
         "anchC": []
       }
     },
-    "NODE_0000013": {
+    "NODE_0000011": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5395,7 +5276,7 @@
         "anchC": []
       }
     },
-    "NODE_0000014": {
+    "NODE_0000012": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -5433,7 +5314,7 @@
         ]
       }
     },
-    "NODE_0000015": {
+    "NODE_0000013": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5448,7 +5329,7 @@
         "anchC": []
       }
     },
-    "NODE_0000016": {
+    "NODE_0000014": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5466,37 +5347,38 @@
         "anchC": []
       }
     },
+    "NODE_0000015": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {},
+      "aa_sequences": {
+        "2K": "SQTDNQLAVFLICVLLVVGVVAA",
+        "E": "FNCLGMSNRDFLEGVSGATWVDVVLEGDSCITIMAKDKPTIDIKMMETEATNLAEVRSYCYLATVSDVSTVSNCPTTGEAHNPKRAEDTYVCKSGVTDRGWGNGCGLFGKGSIDTCANFTCSLKAVGRMIQPENVKYEVGIFIHGSTSSDTHGNYSSQLGASQAGRFTITPNSPAITVKMGDYGEISVECEPRNGLNTEAYYIMSVGTKHFLVHREWFNDLALPWTSPASSNWRNREILLEFEEPHATKQSVVALGSQEGALHQALAGAVPVSFSGSVKLTSGHLKCRVKMEKLTLKGTTYGMCTEKFSFAKNPADTGHGTVVLELQYTGSDGPCKIPISIVASLSDLTPIGRMVTANPYVASSEANAKVLVEMEPPFGDSYIVVGRGDKQINHHWHKAGSSIGKAFITTIKGAQRLAALGDTAWDFGSVGGIFNSVGKAVHQVFGGAFRTLFGGMSWITQGLMGALLLWMGVNARDRSIALVMLATGGVLLFLATNVHA",
+        "NS1": "DSGCAIDVGRRELRCGQGIFIHNDVEAWVDRYKFMPETPKQLAKVIEQAHAKGICGLRSVSRLEHVMWENIRDELNTLLRENAVDLSVVVEKPKGMYKSAPQRLALTSEEFEIGWKAWGKSLVFAPELANHTFVVDGPETKECPDVKRAWNSLEIEDFGFGIMSTRVWLKVREHNTTDCDSSIIGTAVKGDIAVHSDLSYWIESHKNTTWRLERAVFGEIKSCTWPETHTLWSDGVVESDLVVPVTLAGPKSNHNRREGYKVQSQGPWDEEDIVLDFDYCPGTTVTITEACGKRGPSIRTTTSSGRLVTDWCCRSCTLPPLRYRTKNGCWYGMEIRPMKHDETTLVKSSVSA",
+        "NS2A": "YRSDMIDPFQLGLLVMFLATQEVLRKRWTARLTVPAIVGALLVLILGGITYTDLLRYVLLVGAAFAEANSGGDVVHLALIAAFKIQPGFLAMTFLRGKWTNQENILLALGAAFFQMAATDLNFSLPGILNATATAWMLLRAATQPSTSAIVMPLLCLLAPGMRLLYLDTYRITLIIIGICSLIGERRRAAAKKKGAVLLGLALTSTGQFSASVMAAGLMACNPNKKR",
+        "NS2B": "GWPATEVLTAVGLMFAIVGGLAELDVDSMSIPFVLAGLMAVSYTISGKSTDLWLERAADITWETDAAITGTSQRLDVKLDDDGDFHLINDPGVPWKIWVIRMTALGFAAWTPWAIIPAGIGYWLTVKYAKR",
+        "NS3": "GGVFWDTPAPRTYPKGDTSPGVYRIMSRYILGTYQAGVGVMYEGVLHTLWHTTRGAAIRSGEGRLTPYWGSVKEDRITYGGPWKFDRKWNGLDDVQLIIVAPGKAAINIQTKPGIFKTPQGEIGAVSLDYPEGTSGSPILDKNGDIVGLYGNGVILGNGSYVSAIVQGEREEEPVPEAYNADMLRKKQLTVLDLHPGAGKTRRILPQIIKDAIQRRLRTAVLAPTRVVAAEMAEALKGLPVRYLTPAVNREHSGTEIVDVMCHATLTHRLMSPLRVPNYNLFVMDEAHFTDPASIAARGYIATKVELGEAAAIFMTATPPGTHDPFPDTNAPVTDIQAEVPDRAWSSGFEWITEYTGKTVWFVASVKMGNEIAQCLQRAGKKVIQLNRKSYDTEYPKCKNGDWDFVITTDISEMGANFGASRVIDCRKSVKPTILEEGEGRVILSNPSPITSASAAQRRGRVGRNPSQIGDEYHYGGGTSEDDTIAAHWTEAKIMLDNIHLPNGLVAQMYGPERDKAFTMDGEYRLRGEERKTFLELLRTADLPVWLAYKVASNGIQYTDRKWCFDGPRSNIILEDNNEVEIVTRTGERKMLKPRWLDARVYSDHQSLKWFKDFAAGKR",
+        "NS4A": "SAVGFLEVLGRMPEHFAGKTREAFDTMYLVATAEKGGKAHRMALEELPDALETITLIVALAVMTAGVFLLLVQRRGIGKLGLGGMVLGLATFFLWMADVSGTKIAGTLLLALLMMIVLIPEPEKQR",
+        "NS4B": "NEYGMLERTKSDLGKMFSSTRQPQSALPLPSMNALALDLRPATAWALYGGSTVVLTPLIKHLVTSEYITTSLASISAQAGSLFNLPRGLPFTELDLTVVLVFLGCWGQVSLTTLITAAALATLHYGYMLPGWQAEALRAAQRRTAAGIMKNAVVDGLVATDVPELERTTPLMQKKVGQILLIGVSAAALLVNPCVTTVREAGILISAALLTLWDNGAIAVWNSTTATGLCHVIRGNWLAGASIAWTLIKNADKPACKR",
+        "NS5": "KLRWMVERQFVKPIGKVVDLGCGRGGWSYYAATLKGVQEVRGYTKGGPGHEEPMLMQSYGWNLVTMKSGVDVYYKPSEPCDTLFCDIGESSSSAEVEEQRTLRILEMVSDWLQRGPREFCIKVLCPYMPRVMERLEVLQRRYGGGLVRVPLSRNSNHEMYWVSGAAGNIVHAVNMTSQVLIGRMEKRTWHGPKYEEDVNLGSGTRAVGKPQPHANQEKIKARIQRLKEEYAATWHHDKDHPYRTWTYHGSYEVKPTGSASSLVNGVVRLMSKPWDAILNVTTMAMTDTTPFGQQRVFKEKVDTKAPEPPSGVREVMDETTNWLWAFLAREKKPRLCTREEFKRKVNSNAALGAMFEEQNQWSSAREAVEDPRFWEMVDEERENHLKGECHTCIYNMMGKREKKLGEFGKAKGSRAIWFMWLGARFLEFEALGFLNEDHWLGRKNSGGGVEGLGVQKLGYILREMSHHSGGKMYADDTAGWDTRITRADLDNEAKVLELMEGEHRQLARAIIELTYKHKVVKVMRPGTDGKTVMDVISREDQRGSGQVVTYALNTFTNIAVQLIRLMEAEGVIGQEHLESLPRKTKYAVRTWLFENGEERVTRMAVSGDDCVVKPLDDRFANALHFLNSMSKVRKDVPEWKPSSGWHDWQQVPFCSNHFQELIMKDGRTLVVPCRGQDELIGRARVSPGSGWNVRDTACLAKAYAQMWLLLYFHRRDLRLMANAICSAVPSNWVPTGRTSWSVHATGEWMTTDDMLEVWNKVWIQDNEWMLDKTPVQSWTDIPYTGKREDIWCGSLIGTRTRATWAENIYAAINQVRAIIGQEKYRDYMLSLRRYEEVSVQEDRVL",
+        "PreM": "LKLSNFQGKVMMTINATDMADVIVVPTQHGKNQCWIRAMDVGYMCDDTITYECPKLDAGNDPEDIDCWCDKQPMYVHYGRCTRTRHSKRSRRSIAVQTHGESMLANKKDAWLDSTKASRYLMKTENWIIRNPGYAFVAVLLGWMLGS",
+        "anchC": "MSKKPGGPGRNRAINMLKRGIPRVFPLVGVKRVVMGLLDGRGPVRFVLALMTFFKFTALAPTKALLGRWKRINKTTAMKHLTSFKKELGTMINVVNNRGTKKKRGNNGPGLVMIITLMTAVSMVSS"
+      }
+    },
     "NODE_0000017": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000018": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000019": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -5513,13 +5395,45 @@
         "anchC": []
       }
     },
-    "NODE_0000020": {
+    "NODE_0000018": {
       "aa_muts": {
         "2K": [],
         "E": [],
         "NS1": [
           "H50Y"
         ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000019": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "T356A"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000020": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
@@ -5537,9 +5451,7 @@
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [
-          "T356A"
-        ],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -5562,7 +5474,7 @@
         "anchC": []
       }
     },
-    "NODE_0000024": {
+    "NODE_0000023": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5592,13 +5504,30 @@
         "anchC": []
       }
     },
-    "NODE_0000027": {
+    "NODE_0000026": {
       "aa_muts": {
         "2K": [],
         "E": [],
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000027": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [
+          "V26I"
+        ],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
@@ -5623,23 +5552,6 @@
       }
     },
     "NODE_0000029": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [
-          "V26I"
-        ],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000030": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5684,21 +5596,6 @@
         "anchC": []
       }
     },
-    "NODE_0000033": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "NODE_0000034": {
       "aa_muts": {
         "2K": [],
@@ -5709,7 +5606,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "F84L"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -5724,9 +5623,7 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "F84L"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -5746,37 +5643,7 @@
         "anchC": []
       }
     },
-    "NODE_0000037": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "NODE_0000038": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000039": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5793,7 +5660,22 @@
         "anchC": []
       }
     },
-    "NODE_0000041": {
+    "NODE_0000039": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000040": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -5867,7 +5749,9 @@
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": []
+        "anchC": [
+          "P5S"
+        ]
       }
     },
     "NODE_0000046": {
@@ -5900,36 +5784,6 @@
         "anchC": []
       }
     },
-    "NODE_0000048": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000049": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "NODE_0000051": {
       "aa_muts": {
         "2K": [],
@@ -5942,23 +5796,52 @@
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": [
-          "P5S"
-        ]
+        "anchC": []
+      }
+    },
+    "NODE_0000052": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [
+          "M96T"
+        ],
+        "NS2A": [],
+        "NS2B": [
+          "K48R"
+        ],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000053": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [
+          "V242I"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
       }
     },
     "NODE_0000054": {
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "M96T",
-          "V242I"
-        ],
+        "NS1": [],
         "NS2A": [],
-        "NS2B": [
-          "K48R"
-        ],
+        "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
@@ -5978,9 +5861,7 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [
-          "L3F"
-        ],
+        "PreM": [],
         "anchC": []
       }
     },
@@ -5994,7 +5875,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "Q776K"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -6021,9 +5904,7 @@
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [
-          "V583I"
-        ],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -6037,18 +5918,13 @@
         "E": [],
         "NS1": [],
         "NS2A": [],
-        "NS2B": [
-          "V99A"
-        ],
+        "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": [
-          "N106D",
-          "T119M"
-        ]
+        "anchC": []
       }
     },
     "NODE_0000062": {
@@ -6058,9 +5934,24 @@
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [
-          "L92F"
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000063": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [
+          "V146A"
         ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -6077,30 +5968,13 @@
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
-        "NS4B": [
-          "A255T"
-        ],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000065": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
         "anchC": []
       }
     },
-    "NODE_0000066": {
+    "NODE_0000065": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6135,9 +6009,7 @@
         "2K": [],
         "E": [],
         "NS1": [],
-        "NS2A": [
-          "T52I"
-        ],
+        "NS2A": [],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
@@ -6157,52 +6029,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000070": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000071": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000072": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "H466R"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -6256,7 +6085,9 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [],
+        "NS1": [
+          "T208A"
+        ],
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
@@ -6264,10 +6095,29 @@
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": []
+        "anchC": [
+          "S125F"
+        ]
       }
     },
     "NODE_0000077": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "S253N"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000078": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6307,9 +6157,7 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "Q776K"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -6389,53 +6237,6 @@
         "anchC": []
       }
     },
-    "NODE_0000086": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [
-          "V146A"
-        ],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000087": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000088": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "NODE_0000089": {
       "aa_muts": {
         "2K": [],
@@ -6461,14 +6262,42 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "H466R"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
     },
     "NODE_0000091": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000092": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000093": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6494,7 +6323,9 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [],
+        "PreM": [
+          "L3F"
+        ],
         "anchC": []
       }
     },
@@ -6535,7 +6366,9 @@
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [],
+        "NS3": [
+          "V583I"
+        ],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -6549,32 +6382,35 @@
         "E": [],
         "NS1": [],
         "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000099": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [
-          "T208A"
+        "NS2B": [
+          "V99A"
         ],
-        "NS2A": [],
-        "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
         "anchC": [
-          "S125F"
+          "N106D",
+          "T119M"
         ]
+      }
+    },
+    "NODE_0000099": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "L92F"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
       }
     },
     "NODE_0000100": {
@@ -6584,9 +6420,7 @@
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [
-          "S253N"
-        ],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -6603,7 +6437,9 @@
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
-        "NS4B": [],
+        "NS4B": [
+          "A255T"
+        ],
         "NS5": [],
         "PreM": [],
         "anchC": []
@@ -6654,7 +6490,39 @@
         "anchC": []
       }
     },
+    "NODE_0000105": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [
+          "T52I"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
     "NODE_0000106": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000107": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6699,6 +6567,21 @@
         "anchC": []
       }
     },
+    "NODE_0000110": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
     "NODE_0000111": {
       "aa_muts": {
         "2K": [],
@@ -6714,7 +6597,7 @@
         "anchC": []
       }
     },
-    "NODE_0000115": {
+    "NODE_0000113": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6729,7 +6612,7 @@
         "anchC": []
       }
     },
-    "NODE_0000116": {
+    "NODE_0000114": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6748,7 +6631,7 @@
         "anchC": []
       }
     },
-    "NODE_0000117": {
+    "NODE_0000115": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -6777,7 +6660,7 @@
         ]
       }
     },
-    "NODE_0000118": {
+    "NODE_0000116": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6794,7 +6677,7 @@
         "anchC": []
       }
     },
-    "NODE_0000119": {
+    "NODE_0000117": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6802,6 +6685,45 @@
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000118": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000119": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [
+          "M96V",
+          "T176I"
+        ],
+        "NS2A": [
+          "A68S"
+        ],
+        "NS2B": [],
+        "NS3": [
+          "V99I",
+          "K117R",
+          "K382R"
+        ],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -6828,19 +6750,10 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "M96V",
-          "T176I"
-        ],
-        "NS2A": [
-          "A68S"
-        ],
+        "NS1": [],
+        "NS2A": [],
         "NS2B": [],
-        "NS3": [
-          "V99I",
-          "K117R",
-          "K382R"
-        ],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
@@ -6849,36 +6762,6 @@
       }
     },
     "NODE_0000122": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000123": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000124": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -6898,7 +6781,7 @@
         "anchC": []
       }
     },
-    "NODE_0000125": {
+    "NODE_0000123": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6917,7 +6800,7 @@
         ]
       }
     },
-    "NODE_0000126": {
+    "NODE_0000124": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -6942,7 +6825,7 @@
         "anchC": []
       }
     },
-    "NODE_0000127": {
+    "NODE_0000125": {
       "aa_muts": {
         "2K": [],
         "E": [
@@ -6957,6 +6840,36 @@
         "NS5": [
           "E836D"
         ],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000126": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000127": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -7046,7 +6959,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "I56M"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -7060,9 +6975,7 @@
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
-        "NS4B": [
-          "K249R"
-        ],
+        "NS4B": [],
         "NS5": [],
         "PreM": [],
         "anchC": []
@@ -7072,15 +6985,9 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "M338V"
-        ],
-        "NS2A": [
-          "A108T"
-        ],
-        "NS2B": [
-          "F33L"
-        ],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
@@ -7114,7 +7021,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "S362G"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -7143,7 +7052,9 @@
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
-        "NS4B": [],
+        "NS4B": [
+          "K249R"
+        ],
         "NS5": [],
         "PreM": [],
         "anchC": []
@@ -7168,15 +7079,19 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
+        "NS1": [
+          "M338V"
+        ],
+        "NS2A": [
+          "A108T"
+        ],
+        "NS2B": [
+          "F33L"
+        ],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "I56M"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -7230,15 +7145,17 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [],
-        "NS2A": [],
+        "NS1": [
+          "V146A"
+        ],
+        "NS2A": [
+          "Y1H"
+        ],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "S362G"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -7262,12 +7179,8 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "V146A"
-        ],
-        "NS2A": [
-          "Y1H"
-        ],
+        "NS1": [],
+        "NS2A": [],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
@@ -7278,36 +7191,6 @@
       }
     },
     "NODE_0000148": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000149": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000150": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7326,7 +7209,7 @@
         "anchC": []
       }
     },
-    "NODE_0000151": {
+    "NODE_0000149": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7344,7 +7227,7 @@
         "anchC": []
       }
     },
-    "NODE_0000152": {
+    "NODE_0000150": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7365,7 +7248,7 @@
         "anchC": []
       }
     },
-    "NODE_0000153": {
+    "NODE_0000151": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7384,7 +7267,7 @@
         "anchC": []
       }
     },
-    "NODE_0000155": {
+    "NODE_0000153": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7405,7 +7288,7 @@
         ]
       }
     },
-    "NODE_0000156": {
+    "NODE_0000154": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7420,7 +7303,7 @@
         "anchC": []
       }
     },
-    "NODE_0000157": {
+    "NODE_0000155": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7429,6 +7312,38 @@
         "NS2B": [
           "I97T"
         ],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000156": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": [
+          "V124I"
+        ]
+      }
+    },
+    "NODE_0000157": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
@@ -7449,9 +7364,7 @@
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": [
-          "V124I"
-        ]
+        "anchC": []
       }
     },
     "NODE_0000159": {
@@ -7536,21 +7449,6 @@
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000165": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
         "NS3": [
           "K431R"
         ],
@@ -7563,7 +7461,7 @@
         "anchC": []
       }
     },
-    "NODE_0000166": {
+    "NODE_0000165": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7593,7 +7491,7 @@
         "anchC": []
       }
     },
-    "NODE_0000169": {
+    "NODE_0000170": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7604,22 +7502,9 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000171": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
+        "PreM": [
+          "Y120N"
+        ],
         "anchC": []
       }
     },
@@ -7683,21 +7568,6 @@
         "anchC": []
       }
     },
-    "NODE_0000176": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "NODE_0000177": {
       "aa_muts": {
         "2K": [],
@@ -7713,7 +7583,7 @@
         "anchC": []
       }
     },
-    "NODE_0000179": {
+    "NODE_0000178": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7739,43 +7609,13 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000182": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
         "PreM": [
           "V10I"
         ],
         "anchC": []
       }
     },
-    "NODE_0000183": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000184": {
+    "NODE_0000181": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7790,6 +7630,40 @@
         "anchC": [
           "K85R"
         ]
+      }
+    },
+    "NODE_0000183": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "R24Q"
+        ],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000184": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "V17G"
+        ],
+        "PreM": [],
+        "anchC": []
       }
     },
     "NODE_0000186": {
@@ -7822,7 +7696,7 @@
         "anchC": []
       }
     },
-    "NODE_0000191": {
+    "NODE_0000188": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7833,6 +7707,57 @@
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000189": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000190": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000191": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [
+          "K52R"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "A517T"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "Y29F"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -7862,14 +7787,12 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "R24Q"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
     },
-    "NODE_0000195": {
+    "NODE_0000194": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7884,7 +7807,7 @@
         "anchC": []
       }
     },
-    "NODE_0000196": {
+    "NODE_0000195": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -7924,9 +7847,7 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "V761M"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -7946,7 +7867,52 @@
         "anchC": []
       }
     },
+    "NODE_0000200": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000201": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
     "NODE_0000202": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000203": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -8040,19 +8006,13 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "K52R"
-        ],
+        "NS1": [],
         "NS2A": [],
         "NS2B": [],
-        "NS3": [
-          "A517T"
-        ],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "Y29F"
-        ],
+        "NS5": [],
         "PreM": [],
         "anchC": []
       }
@@ -8060,7 +8020,9 @@
     "NODE_0000210": {
       "aa_muts": {
         "2K": [],
-        "E": [],
+        "E": [
+          "I411V"
+        ],
         "NS1": [],
         "NS2A": [],
         "NS2B": [],
@@ -8112,7 +8074,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "V761M"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -8144,6 +8108,58 @@
         "NS4B": [],
         "NS5": [],
         "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000216": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [
+          "A90T"
+        ],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000217": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
+        "anchC": []
+      }
+    },
+    "NODE_0000218": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [
+          "A27P",
+          "H50P"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [
+          "Y120N"
+        ],
         "anchC": []
       }
     },
@@ -8267,21 +8283,6 @@
         "anchC": []
       }
     },
-    "NODE_0000227": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
     "NODE_0000228": {
       "aa_muts": {
         "2K": [],
@@ -8331,19 +8332,14 @@
       "aa_muts": {
         "2K": [],
         "E": [],
-        "NS1": [
-          "A27P",
-          "H50P"
-        ],
+        "NS1": [],
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
-        "PreM": [
-          "Y120N"
-        ],
+        "PreM": [],
         "anchC": []
       }
     },
@@ -8368,20 +8364,12 @@
         "E": [],
         "NS1": [],
         "NS2A": [],
-        "NS2B": [
-          "A67T"
-        ],
-        "NS3": [
-          "A486V"
-        ],
+        "NS2B": [],
+        "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [
-          "M523T"
-        ],
-        "PreM": [
-          "D109E"
-        ],
+        "NS5": [],
+        "PreM": [],
         "anchC": []
       }
     },
@@ -8401,51 +8389,6 @@
       }
     },
     "NODE_0000235": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000236": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000237": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000238": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -8510,23 +8453,6 @@
         "2K": [],
         "E": [],
         "NS1": [],
-        "NS2A": [
-          "P145S"
-        ],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000244": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
         "NS2A": [],
         "NS2B": [],
         "NS3": [],
@@ -8537,7 +8463,7 @@
         "anchC": []
       }
     },
-    "NODE_0000245": {
+    "NODE_0000246": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -8573,31 +8499,24 @@
         "E": [],
         "NS1": [],
         "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
+        "NS2B": [
+          "A67T"
+        ],
+        "NS3": [
+          "A486V"
+        ],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
-        "PreM": [],
+        "NS5": [
+          "M523T"
+        ],
+        "PreM": [
+          "D109E"
+        ],
         "anchC": []
       }
     },
-    "NODE_0000249": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000250": {
+    "NODE_0000252": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -8720,31 +8639,22 @@
     "NODE_0000261": {
       "aa_muts": {
         "2K": [],
-        "E": [],
+        "E": [
+          "D88G"
+        ],
         "NS1": [],
-        "NS2A": [],
+        "NS2A": [
+          "A131T"
+        ],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000262": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
+        "anchC": [
+          "I114T"
+        ]
       }
     },
     "NODE_0000263": {
@@ -8795,22 +8705,16 @@
     "NODE_0000267": {
       "aa_muts": {
         "2K": [],
-        "E": [
-          "D88G"
-        ],
+        "E": [],
         "NS1": [],
-        "NS2A": [
-          "A131T"
-        ],
+        "NS2A": [],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
         "NS5": [],
         "PreM": [],
-        "anchC": [
-          "I114T"
-        ]
+        "anchC": []
       }
     },
     "NODE_0000268": {
@@ -8831,51 +8735,6 @@
     "NODE_0000269": {
       "aa_muts": {
         "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000270": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000271": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000272": {
-      "aa_muts": {
-        "2K": [],
         "E": [
           "I408T"
         ],
@@ -8889,6 +8748,21 @@
         "PreM": [
           "L3F"
         ],
+        "anchC": []
+      }
+    },
+    "NODE_0000272": {
+      "aa_muts": {
+        "2K": [],
+        "E": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "PreM": [],
         "anchC": []
       }
     },
@@ -8932,7 +8806,9 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
+        "NS5": [
+          "Y586H"
+        ],
         "PreM": [],
         "anchC": []
       }
@@ -8962,53 +8838,6 @@
         "NS3": [],
         "NS4A": [],
         "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000278": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [
-          "Y586H"
-        ],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000279": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000280": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
         "NS5": [
           "T527I"
         ],
@@ -9016,37 +8845,7 @@
         "anchC": []
       }
     },
-    "NODE_0000281": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000282": {
-      "aa_muts": {
-        "2K": [],
-        "E": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "PreM": [],
-        "anchC": []
-      }
-    },
-    "NODE_0000297": {
+    "NODE_0000278": {
       "aa_muts": {
         "2K": [],
         "E": [],
@@ -9064,14 +8863,14 @@
   },
   "reference": {
     "2K": "SQTDNQLAVFLICVLLVVGVVAA",
-    "E": "FNCLGMSNRDFLEGVSGATWVDVVLEGDSCITIMAKDKPTIDIKMMETEATNLAEVRSYCYLATVSDVSTVSNCPTTGEAHNPKRAEDTYVCKSGVTDRGWGNGCGLFGKGSIDTCANFTCSLKAVGRMIQPENVKYEVGIFIHGSTSSDTHGNYSSQLGASQAGRFTITPNSPAITVKMGDYGEISVECEPRNGLNTEAYYIMSVGTKHFLVHREWFNDLALPWTSPASSNWRNREILLEFEEPHATKQSVVALGSQEGALHQALAGAVPVSFSSSVKLTSGHLKCRVKMEKLTLKGTTYGMCTEKFSFAKNPADTGHSTVVLELQYTGSDGPCKIPISIVASLSDLTPIGRMVTANPYVASSEANAKVLVEMEPPFGDSYIVVGRGDKQINHHWHKAGSSIGKAFITTIKGAQRLAALGDTAWDFGSVGGIFNSVGKAVHQVFGGAFRTLFGGMSWITQGLMGALLLWMGVNARDRSIALVMLATGGVLLFLATSVHA",
-    "NS1": "DSGCAIDVGRRELRCGQGIFIHNDVEAWVDRYKFMPETPKQLAKVIEQAHAKGICGLRSVSRLEHVMWENIRDELNTLLRENAVDLSVVVEKPKGMYKSAPQRLALTSEEFEIGWKAWGKSLVFAPELANHTFVVDGPETKECPDVKRAWNSLEIEDFGFGIMSTRVWLKVREHNTTDCDSSIIGTAVKGDIAVHSDLSYWIESHKNTTWRLERAVFGEIKSCTWPETHTLWSDGVVESDLVVPVTLAGPKSNHNRREGYKVQSQGPWDEEDIVLDFDYCPGTTVTITEACGKRGPSIRTTTSSGRLVTDWCCRSCTLPPLRYKTKNGCWYGMEIRPMKHDETTLVKSSVSA",
-    "NS2A": "YRSDMIDPFQLGLLVMFLATQEVLRKRWTARLTVPAIVGALLVLILGGITYTDLLRYVLLVGAAFAEANSGGDVVHLALIAAFKIQPGFLAMTFLRGKWTNQENILLALGAAFFQMAATDLDLSLPGILNATATAWMLLRAATQPSTSAIVMPLLCLLAPGMRLLYLDTYRITLIIIGICSLIGERRRAAAKKKGAVLLGLALTSTGQFSASVMAAGLMACNPNKKR",
+    "E": "FNCLGMSNRDFLEGVSGATWVDVVLEGDSCITIMAKDKPTIDIKMMETEATNLAEVRSYCYLATVSDVSTVSNCPTTGEAHNPKRAEDTYVCKSGVTDRGWGNGCGLFGKGSIDTCANFTCSLKAVGRMIQPENVKYEVGIFIHGSTSSDTHGNYSSQLGASQAGRFTITPNSPAITVKMGDYGEISVECEPRNGLNTEAYYIMSVGTKHFLVHREWFNDLALPWTSPASSNWRNREILLEFEEPHATKQSVVALGSQEGALHQALAGAVPVSFSGSVKLTSGHLKCRVKMEKLTLKGTTYGMCTEKFSFAKNPADTGHGTVVLELQYTGSDGPCKIPISIVASLSDLTPIGRMVTANPYVASSEANAKVLVEMEPPFGDSYIVVGRGDKQINHHWHKAGSSIGKAFITTIKGAQRLAALGDTAWDFGSVGGIFNSVGKAVHQVFGGAFRTLFGGMSWITQGLMGALLLWMGVNARDRSIALVMLATGGVLLFLATNVHA",
+    "NS1": "DSGCAIDVGRRELRCGQGIFIHNDVEAWVDRYKFMPETPKQLAKVIEQAHAKGICGLRSVSRLEHVMWENIRDELNTLLRENAVDLSVVVEKPKGMYKSAPQRLALTSEEFEIGWKAWGKSLVFAPELANHTFVVDGPETKECPDVKRAWNSLEIEDFGFGIMSTRVWLKVREHNTTDCDSSIIGTAVKGDIAVHSDLSYWIESHKNTTWRLERAVFGEIKSCTWPETHTLWSDGVVESDLVVPVTLAGPKSNHNRREGYKVQSQGPWDEEDIVLDFDYCPGTTVTITEACGKRGPSIRTTTSSGRLVTDWCCRSCTLPPLRYRTKNGCWYGMEIRPMKHDETTLVKSSVSA",
+    "NS2A": "YRSDMIDPFQLGLLVMFLATQEVLRKRWTARLTVPAIVGALLVLILGGITYTDLLRYVLLVGAAFAEANSGGDVVHLALIAAFKIQPGFLAMTFLRGKWTNQENILLALGAAFFQMAATDLNFSLPGILNATATAWMLLRAATQPSTSAIVMPLLCLLAPGMRLLYLDTYRITLIIIGICSLIGERRRAAAKKKGAVLLGLALTSTGQFSASVMAAGLMACNPNKKR",
     "NS2B": "GWPATEVLTAVGLMFAIVGGLAELDVDSMSIPFVLAGLMAVSYTISGKSTDLWLERAADITWETDAAITGTSQRLDVKLDDDGDFHLINDPGVPWKIWVIRMTALGFAAWTPWAIIPAGIGYWLTVKYAKR",
-    "NS3": "GGVFWDTPAPRTYPKGDTSPGVYRIMSRYILGTYQAGVGVMYEGVLHTLWHTTRGAAIRSGEGRLTPYWGSVKEDRITYGGPWKFDRKWNGLDDVQLIIVAPGKAAINIQTKPGVFKTPQGEIGAVSLDYPEGTSGSPILDKNGDIVGLYGNGVILGNGSYVSAIVQGEREEEPVPEAYNADMLRKKQLTVLDLHPGAGKTRRILPQIIKDAIQRRLRTAVLAPTRVVAAEMAEALKGLPVRYLTPAVNREHSGTEIVDVMCHATLTHRLMSPLRVPNYNLFVMDEAHFTDPASIAARGYIATKVELGEAAAIFMTATPPGTHDPFPDTNAPVTDIQAEVPDRAWSSGFEWITEYTGKTVWFVASVKMGNEIAQCLQRAGKKVIQLNRKSYDTEYPKCKNGDWDFVITTDISEMGANFGASRVIDCRKSVKPTILEEGEGRVILSNPSPITSASAAQRRGRVGRNPSQIGDEYHYGGGTSEDDTIAAHWTEAKIMLDNIHLPNGLVAQMYGPERDKAFTMDGEYRLRGEERKTFLELLRTADLPVWLAYKVASNGIQYTDRKWCFDGPRSNIILEDNNEVEIVTRTGERKMLKPRWLDARVYSDHQSLKWFKDFAAGKR",
+    "NS3": "GGVFWDTPAPRTYPKGDTSPGVYRIMSRYILGTYQAGVGVMYEGVLHTLWHTTRGAAIRSGEGRLTPYWGSVKEDRITYGGPWKFDRKWNGLDDVQLIIVAPGKAAINIQTKPGIFKTPQGEIGAVSLDYPEGTSGSPILDKNGDIVGLYGNGVILGNGSYVSAIVQGEREEEPVPEAYNADMLRKKQLTVLDLHPGAGKTRRILPQIIKDAIQRRLRTAVLAPTRVVAAEMAEALKGLPVRYLTPAVNREHSGTEIVDVMCHATLTHRLMSPLRVPNYNLFVMDEAHFTDPASIAARGYIATKVELGEAAAIFMTATPPGTHDPFPDTNAPVTDIQAEVPDRAWSSGFEWITEYTGKTVWFVASVKMGNEIAQCLQRAGKKVIQLNRKSYDTEYPKCKNGDWDFVITTDISEMGANFGASRVIDCRKSVKPTILEEGEGRVILSNPSPITSASAAQRRGRVGRNPSQIGDEYHYGGGTSEDDTIAAHWTEAKIMLDNIHLPNGLVAQMYGPERDKAFTMDGEYRLRGEERKTFLELLRTADLPVWLAYKVASNGIQYTDRKWCFDGPRSNIILEDNNEVEIVTRTGERKMLKPRWLDARVYSDHQSLKWFKDFAAGKR",
     "NS4A": "SAVGFLEVLGRMPEHFAGKTREAFDTMYLVATAEKGGKAHRMALEELPDALETITLIVALAVMTAGVFLLLVQRRGIGKLGLGGMVLGLATFFLWMADVSGTKIAGTLLLALLMMIVLIPEPEKQR",
-    "NS4B": "NEYGMLERTKSDLGKMFSGTRQPQSALPLPSMNALALDLRPATAWALYGGSTVVLTPLIKHLVTSEYITTSLASISAQAGSLFNLPRGLPFTELDLTVVLVFLGCWGQVSLTTLITAAALATLHYGYMLPGWQAEALRAAQRRTAAGIMKNAVVDGLVATDVPELERTTPLMQKKVGQILLIGVSAAALLVNPCVTTVREAGILISAALLTLWDNGAIAVWNSTTATGLCHVIRGNWLAGASIAWTLIKNADKPACKR",
-    "NS5": "KLRWMVERQFVKPIGKVVDLGCGRGGWSYYAATLKGVQEVRGYTKGGPGHEEPMLMQSYGWNLVTMKSGVDVYYKPSEPCDTLFCDIGESSSSAEVEEQRTLRILEMVSDWLQRGPREFCIKVLCPYMPRVMERLEVLQRRYGGGLVRVPLSRNSNHEMYWVSGAAGNIVHAVNMTSQVLIGRMEKRTWHGPKYEEDVNLGSGTRAVGKPQPHANQEKIKARIQRLKEEYAATWHHDKDHPYRTWTYHGSYEVKPTGSAGSLVNGVVRLMSKPWDAILNVTTMAMTDTTPFGQQRVFKEKVDTKAPEPPSGVREVMDETTNWLWAFLAREKKPRLCTREEFKRKVNSNAALGAMFEEQNQWSSAREAVEDPRFWEMVDEERENHLKGECHTCIYNMMGKREKKLGEFGKAKGSRAIWFMWLGARFLEFEALGFLNEDHWLGRKNSGGGVEGLGVQKLGYILREMSHHSGGKMYADDTAGWDTRITRADLDNEAKVLELMEGEHRQLARAIIELTYKHKVVKVMRPGTDGKTVMDVISREDQRGSGQVVTYALNTFTNIAVQLIRLMEAEGVIGQEHLESLPRKTKYAVRTWLFENGEERVTRMAVSGDDCVVKPLDDRFANALHFLNSMSKVRKDVPEWKPSSGWHDWQQVPFCSNHFQELIMKDGRTLVVPCRGQDELIGRARVSPGSGWNVRDTACLAKAYAQMWLLLYFHRRDLRLMANAICSAVPSNWVPTGRTSWSVHATGEWMTTDDMLEVWNKVWIQDNEWMLDKTPVQSWTDIPYTGKREDIWCGSLIGTRTRATWAENIYAAINQVRAIIGQEKYRDYMLSLRRYEEVSVQEDRVL",
+    "NS4B": "NEYGMLERTKSDLGKMFSSTRQPQSALPLPSMNALALDLRPATAWALYGGSTVVLTPLIKHLVTSEYITTSLASISAQAGSLFNLPRGLPFTELDLTVVLVFLGCWGQVSLTTLITAAALATLHYGYMLPGWQAEALRAAQRRTAAGIMKNAVVDGLVATDVPELERTTPLMQKKVGQILLIGVSAAALLVNPCVTTVREAGILISAALLTLWDNGAIAVWNSTTATGLCHVIRGNWLAGASIAWTLIKNADKPACKR",
+    "NS5": "KLRWMVERQFVKPIGKVVDLGCGRGGWSYYAATLKGVQEVRGYTKGGPGHEEPMLMQSYGWNLVTMKSGVDVYYKPSEPCDTLFCDIGESSSSAEVEEQRTLRILEMVSDWLQRGPREFCIKVLCPYMPRVMERLEVLQRRYGGGLVRVPLSRNSNHEMYWVSGAAGNIVHAVNMTSQVLIGRMEKRTWHGPKYEEDVNLGSGTRAVGKPQPHANQEKIKARIQRLKEEYAATWHHDKDHPYRTWTYHGSYEVKPTGSASSLVNGVVRLMSKPWDAILNVTTMAMTDTTPFGQQRVFKEKVDTKAPEPPSGVREVMDETTNWLWAFLAREKKPRLCTREEFKRKVNSNAALGAMFEEQNQWSSAREAVEDPRFWEMVDEERENHLKGECHTCIYNMMGKREKKLGEFGKAKGSRAIWFMWLGARFLEFEALGFLNEDHWLGRKNSGGGVEGLGVQKLGYILREMSHHSGGKMYADDTAGWDTRITRADLDNEAKVLELMEGEHRQLARAIIELTYKHKVVKVMRPGTDGKTVMDVISREDQRGSGQVVTYALNTFTNIAVQLIRLMEAEGVIGQEHLESLPRKTKYAVRTWLFENGEERVTRMAVSGDDCVVKPLDDRFANALHFLNSMSKVRKDVPEWKPSSGWHDWQQVPFCSNHFQELIMKDGRTLVVPCRGQDELIGRARVSPGSGWNVRDTACLAKAYAQMWLLLYFHRRDLRLMANAICSAVPSNWVPTGRTSWSVHATGEWMTTDDMLEVWNKVWIQDNEWMLDKTPVQSWTDIPYTGKREDIWCGSLIGTRTRATWAENIYAAINQVRAIIGQEKYRDYMLSLRRYEEVSVQEDRVL",
     "PreM": "LKLSNFQGKVMMTINATDMADVIVVPTQHGKNQCWIRAMDVGYMCDDTITYECPKLDAGNDPEDIDCWCDKQPMYVHYGRCTRTRHSKRSRRSIAVQTHGESMLANKKDAWLDSTKASRYLMKTENWIIRNPGYAFVAVLLGWMLGS",
     "anchC": "MSKKPGGPGRNRAINMLKRGIPRVFPLVGVKRVVMGLLDGRGPVRFVLALMTFFKFTALAPTKALLGRWKRINKTTAMKHLTSFKKELGTMINVVNNRGTKKKRGNNGPGLVMIITLMTAVSMVSS"
   }
