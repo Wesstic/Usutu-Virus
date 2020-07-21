@@ -316,7 +316,7 @@
     ],
     "maintainers": [
       {
-        "name": "Haoues ALOUT and Maxime Prat"
+        "name": "Haoues ALOUT and Maxime Prat, updated on 21st july 2020"
       }
     ],
     "panels": [
@@ -325,7 +325,7 @@
       "entropy"
     ],
     "title": "Nextstrain build for Usutu virus",
-    "updated": "2020-07-20"
+    "updated": "2020-07-21"
   },
   "tree": {
     "branch_attrs": {
