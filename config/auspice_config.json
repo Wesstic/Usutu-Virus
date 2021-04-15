@@ -45,6 +45,9 @@
   "filters": [
     "country",
     "region",
+    "lineage",
+    "year",
     "author"
+    
   ]
 }
