@@ -1,28 +1,23 @@
-country	Austria	#6BB18E					
-country	Belgium	#5098B9					
-country	France	#66cccc					
-country	Germany	#a6c6a4					
-country	Hungary	#ffd05c					
-country	Israel	#E68F36					
-country	Italy	#B9BC4A					
-country	Netherlands	#3F5ED0					
-country	South Africa	#DC2F24					
-country	Spain	#CCB742					
-country	Central African Republic	#FF0080					
-country	Senegal	#ff7c80					
-country	Serbia	#A4BE56					
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
+country	Austria	#63A8A0
+country	Belgium	#F16666
+country	France	#FC9F81
+country	Germany	#ABDDA4
+country	Hungary	#3BA432
+country	Israel	#F16913
+country	Italy	#C3AAD2
+country	Netherlands	#084594
+country	South Africa	#7D54A6
+country	Spain	#FDAE6B
+country	Central African Republic	#A6CEE3
+country	Senegal	#F781BF
+country	Serbia	#428EC0
+country	United Kingdom	#E6F598
+country	Uganda	#E62F27
+lineage	AF1	#FF0080
+lineage	AF2	#DC2F24
+lineage	AF3	#ff7c80
+lineage	EU1	#3F5ED0
+lineage	EU2	#66cccc
+lineage	EU3	#a6c6a4
+lineage	EU4	#CCB742
+lineage	EU5	#E68F36
